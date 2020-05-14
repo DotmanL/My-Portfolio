@@ -18,11 +18,11 @@ const flipAnimation = keyframes`${zoomIn}`;
 
 
 export const IntroContainer = styled.div `
-height: 100vh;
+height: 800px;
 
 @media screen and (max-width: 800px) {
-        height: 80vh; 
-        width: 100vw;   
+        height: 400px; 
+        
   }
 `
 
@@ -34,7 +34,7 @@ justify-content: center;
 align-items: center;
 display: flex;
 flex-direction: row;
-margin-top: -800px;
+
 
 @media screen and (max-width: 800px) {
       margin-top: -50px;
