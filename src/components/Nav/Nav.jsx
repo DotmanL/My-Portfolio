@@ -29,7 +29,7 @@ return(
 
         <ScrollTo>
       {({ scroll }) => (
-        <NavLinks onClick={() => scroll({ y: 2530 })}>Contact</NavLinks>
+        <NavLinks onClick={() => scroll({ y: 4230 })}>Contact</NavLinks>
           )}
         </ScrollTo>
         
