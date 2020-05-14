@@ -7,17 +7,15 @@ import dotdev from './dotdev.png'
 
 export const Container= styled.div`
 height: 1800px;
-width: 130%;
+width: 100%;
 background: lightsteelblue;
-display: flex;
-flex-direction: row;
-flex-wrap: row wrap;
+
 
 
 @media screen and (max-width: 800px) {
     height: 3000px;
     display: flex;  
-    width: 130%;       
+    width: 100%;       
   }
 `
 
