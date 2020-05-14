@@ -8,7 +8,7 @@ import dotdev from './dotdev.png'
 export const Container= styled.div`
 height: 1800px;
 width: 100%;
-background: lightsteelblue;
+background: white;
 
 
 
