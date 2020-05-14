@@ -34,6 +34,7 @@ justify-content: center;
 align-items: center;
 display: flex;
 flex-direction: row;
+margin-top: -700px;
 
 
 @media screen and (max-width: 800px) {
