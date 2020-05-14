@@ -15,7 +15,8 @@ flex-wrap: row wrap;
 
 @media screen and (max-width: 800px) {
     height: 3000px;
-    display: flex;         
+    display: flex;  
+    width: 100vw;       
   }
 `
 
