@@ -20,6 +20,7 @@ const flipAnimation = keyframes`${zoomIn}`;
 export const IntroContainer = styled.div `
 height: 800px;
 
+
 @media screen and (max-width: 800px) {
         height: 400px; 
         
@@ -38,7 +39,7 @@ margin-top: -700px;
 
 
 @media screen and (max-width: 800px) {
-      margin-top: -250px;
+      margin-top: -390px;
      
     
   }
