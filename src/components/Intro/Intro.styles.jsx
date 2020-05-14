@@ -21,7 +21,8 @@ export const IntroContainer = styled.div `
 height: 70vh;
 
 @media screen and (max-width: 800px) {
-        height: 80vh;    
+        height: 80vh; 
+        width: 100vw;   
   }
 `
 
