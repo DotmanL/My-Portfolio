@@ -30,7 +30,6 @@ height: 70vh;
 export const Container= styled.div`
 height: 800px;
 background: black;
-opacity: 0.8;
 justify-content: center;
 align-items: center;
 display: flex;
@@ -40,6 +39,7 @@ margin-top: -800px;
 @media screen and (max-width: 800px) {
       margin-top: -50px;
       height: 200px;
+      width: 100vw;
     
   }
 
