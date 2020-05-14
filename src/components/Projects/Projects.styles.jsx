@@ -13,7 +13,7 @@ background: white;
 
 
 @media screen and (max-width: 800px) {
-    height: 3000px;
+    height: 3200px;
     display: flex;  
     width: 100vw;       
   }
@@ -199,7 +199,7 @@ margin-left: -410px;
 }
 @media screen and (max-width: 800px) {
         margin-left: -320px; 
-        margin-top: 450px;   
+        margin-top: 470px;   
   }
 `
 
@@ -214,6 +214,6 @@ margin-left: 10px;
 }
 @media screen and (max-width: 800px) {
         margin-left: 20px;
-        margin-top: 450px;    
+        margin-top: 470px;    
   }
 `

@@ -16,17 +16,33 @@ return (
     params={{
 	    "particles": {
 	        "number": {
-	            "value": 50
+	            "value": 160,
+	            "density": {
+	                "enable": false
+	            }
 	        },
 	        "size": {
-	            "value": 3
+	            "value": 10,
+	            "random": true
+	        },
+	        "move": {
+	            "direction": "bottom",
+	            "out_mode": "out"
+	        },
+	        "line_linked": {
+	            "enable": false
 	        }
 	    },
 	    "interactivity": {
 	        "events": {
-	            "onhover": {
+	            "onclick": {
 	                "enable": true,
-	                "mode": "repulse"
+	                "mode": "remove"
+	            }
+	        },
+	        "modes": {
+	            "remove": {
+	                "particles_nb": 10
 	            }
 	        }
 	    }

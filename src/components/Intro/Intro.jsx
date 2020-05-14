@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactTypingEffect from 'react-typing-effect';
-import Particles from '../Particles/Particles';
-import {Container,
+//import Particles from '../Particles/Particles';
+import {
   Git, 
   ReactTyping, 
   Title,
@@ -16,8 +16,8 @@ import {Container,
 const Intro = () => {
   return (
   <IntroContainer >
-       <Particles />
-      <Container>
+      
+     
               <Image />
           <ReactTyping>
         <ReactTypingEffect text='I am Lawal Oladotun'/>
@@ -33,7 +33,7 @@ const Intro = () => {
 
      </Icons>
 
-      </Container>
+    
       </IntroContainer>
   )
 }

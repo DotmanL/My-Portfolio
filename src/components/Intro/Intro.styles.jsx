@@ -18,34 +18,18 @@ const flipAnimation = keyframes`${zoomIn}`;
 
 
 export const IntroContainer = styled.div `
-height: 800px;
 
-
-@media screen and (max-width: 800px) {
-        height: 400px; 
-        
-  }
-`
-
-
-export const Container= styled.div`
-height: 800px;
+height: 500px;
 background: black;
 justify-content: center;
 align-items: center;
 display: flex;
 flex-direction: row;
-margin-top: -700px;
-
-
 @media screen and (max-width: 800px) {
-      margin-top: -390px;
-     
-    
+        height: 500px; 
+        
+        
   }
-
-
-
 `
 
 
@@ -61,29 +45,27 @@ background-size: cover;
   position: absolute;
   width: 200px;
   height: 250px;
-  margin-top: -95px;
+  margin-top: -135px;
   animation: 5s ${flipAnimation};
-
   @media screen and (max-width: 800px) {
-      margin-top: -100px;
+      margin-top: -150px;
       position: absolute;
     
   }
-
  
 ` 
 
 
 export const Icons = styled.div`
-background: black;
+
 justify-content: center;
 align-items: center;
 display: flex;
 flex-direction: row;
-margin-top: 150px;
+margin-top: 100px;
 position: absolute;
 @media screen and (max-width: 800px) {
-      margin-top: 190px;
+      margin-top: 170px;
       position: absolute;
     
   }
@@ -122,7 +104,6 @@ export const Title =styled.h4 `
 font-size: 20px;
 color:white;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 @media screen and (max-width: 800px) {
       font-size: 11px;
       margin-left: 25px;
@@ -133,21 +114,15 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 export const ReactTyping = styled.div`
     font-size: 25px;
     color: white;
-    margin-top: 170px;
+    margin-top: 75px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
     @media screen and (max-width: 800px) {
-      margin-top: 230px;
+      margin-top: 150px;
      
     
   }
-
-
-
-
-
 `;
