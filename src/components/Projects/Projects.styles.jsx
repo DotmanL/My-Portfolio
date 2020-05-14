@@ -7,7 +7,7 @@ import dotdev from './dotdev.png'
 
 export const Container= styled.div`
 height: 1800px;
-width: 100vw;
+width: 100%;
 background: lightsteelblue;
 display: flex;
 flex-direction: row;
