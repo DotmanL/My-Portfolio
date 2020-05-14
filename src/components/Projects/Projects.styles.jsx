@@ -15,7 +15,7 @@ background: lightsteelblue;
 @media screen and (max-width: 800px) {
     height: 3000px;
     display: flex;  
-    width: 100%;       
+    width: 100vw;       
   }
 `
 
@@ -33,7 +33,9 @@ flex-flow: row wrap;
     height: 3200px;
     display: flex;
     margin-top: 10px;
-    flex-direction: column;         
+    flex-direction: row; 
+    flex-flow: row wrap;
+    width: 100vw;
   }
 `
 
