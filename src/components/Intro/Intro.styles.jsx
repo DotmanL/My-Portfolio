@@ -38,7 +38,7 @@ margin-top: -700px;
 
 
 @media screen and (max-width: 800px) {
-      margin-top: -550px;
+      margin-top: -250px;
      
     
   }
