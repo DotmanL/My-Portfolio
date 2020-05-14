@@ -29,6 +29,7 @@ height: 70vh;
 export const Container= styled.div`
 height: 800px;
 background: black;
+opacity: 0.8;
 justify-content: center;
 align-items: center;
 display: flex;

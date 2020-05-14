@@ -7,10 +7,10 @@ import dotdev from './dotdev.png'
 
 export const Container= styled.div`
 height: 1800px;
-background: white;
+background: lightsteelblue;
 display: flex;
 flex-direction: row;
-flex-wrap: wrap;
+flex-wrap: row wrap;
 
 
 @media screen and (max-width: 800px) {
@@ -30,7 +30,7 @@ flex-flow: row wrap;
 
 
 @media screen and (max-width: 800px) {
-    height: 3500px;
+    height: 3200px;
     display: flex;
     margin-top: 10px;
     flex-direction: column;         
