@@ -8,7 +8,7 @@ import dotdev from './dotdev.png'
 export const Container= styled.div`
 height: 1800px;
 width: 100%;
-background: white;
+background: wheat;
 
 
 
@@ -28,7 +28,6 @@ display: flex;
 flex-direction: row;
 flex-flow: row wrap;
 
-
 @media screen and (max-width: 800px) {
     height: 3200px;
     display: flex;
@@ -46,8 +45,9 @@ export const Card = styled.div`
   width: 430px;
   background-color: #17141d;
   border-radius: 10px;
-  box-shadow: -1rem 0 3rem #000;
+  box-shadow: -1rem 0 1rem #000;
  margin: 60px auto;
+
   transition: 0.4s ease-out;
   position: relative;
   &:hover {
@@ -71,6 +71,21 @@ export const Card = styled.div`
            
   }
 `
+
+export const Bar = styled.div `
+background: green;
+width: 94%;
+height: 10px;
+margin-top: 215px;
+margin-left: -400px;
+@media screen and (max-width: 800px) {
+        margin-left: -90vw;
+        
+           
+  }
+
+`
+
 
 export const Image1 = styled.div`
   width: 400px;
@@ -160,19 +175,7 @@ export const Image4 = styled.div`
         margin-left: 10px;    
   }
 `
-export const Bar = styled.div `
-background: white;
-width: 100%;
-height: 10px;
-margin-top: 215px;
-margin-left: -415px;
 
-  
-    @media screen and (max-width: 800px) {
-        width: 100%;
-        margin-left: -335px;    
-  }
-`
 export const CTitle = styled.h2`
   color: white;
   font-weight: strong;

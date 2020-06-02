@@ -12,7 +12,7 @@ left: 0;
 z-index: 9999;
 background: white;
 opacity: 0.7;
-width: 100%;
+width: 100vw;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -20,6 +20,11 @@ justify-content: center;
 text-align: center;
 height: 30px;
 animation: 1s ${animation};
+
+@media screen and (max-width: 800px) {
+   
+    width: 100vw;       
+  }
 `
 
 

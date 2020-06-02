@@ -18,7 +18,6 @@ const Intro = () => {
   <IntroContainer >
       
      
-              <Image />
           <ReactTyping>
         <ReactTypingEffect text='I am Lawal Oladotun'/>
 

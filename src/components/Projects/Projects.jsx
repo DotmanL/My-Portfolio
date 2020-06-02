@@ -2,11 +2,16 @@ import React from 'react'
 import { Container, 
   Card, CTitle, Image1, Image2, Image3,
   Image4, Bar, Desc, Demo, Code, CardContent } from './Projects.styles';
+  import Bounce from 'react-reveal/Bounce';
+
 
 const Projects = () => {
   return (
    <Container>
+     <Bounce left big>
   <CardContent>
+
+
   <Card> 
       <Image1 />   
          <Bar/>
@@ -19,8 +24,7 @@ const Projects = () => {
         <Demo>Demo</Demo>
         <Code>Code</Code>
       </Card>
-   
-     
+
         
         <Card> 
       <Image2 />   
@@ -63,8 +67,9 @@ const Projects = () => {
         <Code href="https://github.com/DotmanL/Dotdev-Blog" >Code</Code>
       </Card>
 
-
       </CardContent>
+      </Bounce>
+
    </Container>
   )
 }
