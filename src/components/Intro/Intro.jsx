@@ -1,13 +1,14 @@
 import React from 'react'
-import ReactTypingEffect from 'react-typing-effect';
-//import Particles from '../Particles/Particles';
+import Typed from 'react-typed';
+ 
+
 import {
   Git, 
-  ReactTyping, 
-  Title,
+  Introt, 
+  Introm,
+  //Title,
   Icons,
-  Twit, 
-  Image, 
+  Twit,  
   Linked,
   IntroContainer,
   Google
@@ -16,14 +17,30 @@ import {
 const Intro = () => {
   return (
   <IntroContainer >
-      
+
+
+
      
-          <ReactTyping>
-        <ReactTypingEffect text='I am Lawal Oladotun'/>
-
-        <Title>A budding young engineer with passion to become a full stack developer</Title> 
-       </ReactTyping>   
-
+     <Introt> <Typed    
+        strings={['I am Lawal Oladotun']}
+         typeSpeed={40}
+                /> </Introt>
+                <br/>
+ 
+                <Introm>               
+                <Typed 
+                
+                strings={[
+                    'React Developer',
+                    'Mechanical Engineer',
+                    'Aspiring FullStack Developer']}
+                    typeSpeed={90}
+                    backSpeed={50}
+                    loop >
+                    
+                </Typed>
+                </Introm>
+   
     <Icons>
     <a href="https://github.com/dotmanL"> <Git /> </a>
     <a href="https://twitter.com/dotman_l"> <Twit/> </a>

@@ -1,38 +1,42 @@
 import styled, { keyframes } from 'styled-components';
 import { bounceIn } from 'react-animations';
- 
+import jakspot from './jakspot.jpg'
 
 const animation = keyframes`${bounceIn}`;
 
 
 export const Navbar = styled.div `
+background-image: url(${jakspot});
 position: fixed;
 top: 0;
 left: 0;
 z-index: 9999;
-background: white;
-opacity: 0.7;
-width: 100vw;
+
+opacity: 0.9;
+width: 100%;
 display: flex;
 flex-direction: row;
 align-items: center;
-justify-content: center;
-text-align: center;
+justify-content: flex-end;
+
 height: 30px;
 animation: 1s ${animation};
-
 @media screen and (max-width: 800px) {
    
-    width: 100vw;       
+    width: 100%;       
   }
 `
 
 
 
 export const NavLinks = styled.h3 `
-color: black;
+color: white;
 font-size: 20px;
-padding: 10px 10px;
+padding: 10px 15px;
+
   cursor: pointer;
+  @media screen and (max-width: 800px) {
+  padding: 10px 10px;     
+ }
     
 `

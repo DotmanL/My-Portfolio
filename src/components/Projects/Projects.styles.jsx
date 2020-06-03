@@ -73,7 +73,7 @@ export const Card = styled.div`
 `
 
 export const Bar = styled.div `
-background: green;
+background: white;
 width: 94%;
 height: 10px;
 margin-top: 215px;
