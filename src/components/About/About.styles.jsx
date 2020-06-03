@@ -1,5 +1,6 @@
-import styled from 'styled-components'
+import styled  from 'styled-components'
 import dot from './dot.png';
+
 
 export const Container= styled.div`
 height: auto;
@@ -19,6 +20,7 @@ color: black;
 width: 70vw;
 font-style: italic;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 @media screen and (max-width: 800px) {
       width: 60vw;
       font-size: 15px;

@@ -6,14 +6,13 @@ import dotdev from './dotdev.png'
 
 
 export const Container= styled.div`
-height: 1800px;
+height: auto;
 width: 100%;
-background: wheat;
+background: white;
 
 
 
 @media screen and (max-width: 800px) {
-    height: 3200px;
     display: flex;  
     width: 100vw;       
   }
@@ -23,17 +22,14 @@ background: wheat;
 export const CardContent= styled.div`
 
 width: 100%;
-height: 100px;
+height: auto;
 display: flex;
 flex-direction: row;
 flex-flow: row wrap;
 
 @media screen and (max-width: 800px) {
-    height: 3200px;
     display: flex;
     margin-top: 10px;
-    flex-direction: row; 
-    flex-flow: row wrap;
     width: 100vw;
   }
 `
@@ -45,9 +41,10 @@ export const Card = styled.div`
   width: 430px;
   background-color: #17141d;
   border-radius: 10px;
-  box-shadow: -1rem 0 1rem #000;
+  box-shadow: 2px 10px 2px 2px #000;
  margin: 60px auto;
-
+flex-direction: row;
+flex-flow: row wrap;
   transition: 0.4s ease-out;
   position: relative;
   &:hover {
@@ -65,7 +62,7 @@ export const Card = styled.div`
 @media screen and (max-width: 800px) {
         width: 95vw;
         height: 85vh;
-        margin: 20px auto;
+        margin: 14px auto;
         
         
            
@@ -74,12 +71,13 @@ export const Card = styled.div`
 
 export const Bar = styled.div `
 background: white;
-width: 94%;
+width: 100%;
 height: 10px;
-margin-top: 215px;
-margin-left: -400px;
+display: flex;
+margin-top: -60px;
+
 @media screen and (max-width: 800px) {
-        margin-left: -90vw;
+  margin-top: -85px; 
         
            
   }
@@ -88,6 +86,7 @@ margin-left: -400px;
 
 
 export const Image1 = styled.div`
+  display: flex;
   width: 400px;
   height: 200px;
   margin-top: 10px;
@@ -105,8 +104,8 @@ export const Image1 = styled.div`
     }
    
     @media screen and (max-width: 800px) {
-        width: 90vw;
-        margin-left: 10px;    
+     width: 320px;
+     margin-left: 10px;
   }
 `
 
@@ -194,29 +193,32 @@ export const Desc = styled.h3`
 export const Demo =styled.a`
 font-size: 25px;
 color: yellow;
-margin-top: 420px;
-margin-left: -410px;
-
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+margin-bottom: 20px;
+margin-left: 10px;
 :hover{
   cursor: pointer;
 }
 @media screen and (max-width: 800px) {
-        margin-left: -320px; 
-        margin-top: 470px;   
+        
   }
 `
 
 export const Code =styled.a`
 font-size: 25px;
 color: yellow;
-margin-top: 420px;
-margin-left: 10px;
+display: flex;
+flex-direction: row;
+margin-left: 20px;
+align-items: flex-end;
+margin-bottom: 20px;
 
 :hover{
   cursor: pointer;
 }
 @media screen and (max-width: 800px) {
-        margin-left: 20px;
-        margin-top: 470px;    
+         
   }
 `
