@@ -21,8 +21,9 @@ export const IntroContainer = styled.div `
 background-image: url(${jakspot});
 height: 100vh;
 width: 100%;
-background-size: cover;
+
 justify-content: center;
+background-size: cover;
 background-position: center; 
 background-repeat: no-repeat;
 align-items: center;
@@ -64,7 +65,7 @@ export const Git = styled(Github)`
   width: 50px;
   animation: 5s ${bounceAnimation};
   &:hover{
-  color: blue
+  color: orange;
 }
 `
 export const Twit = styled(Twitter)`
@@ -72,7 +73,7 @@ export const Twit = styled(Twitter)`
   width: 50px;
   animation: 5s ${bounceAnimation};
   &:hover{
-  color: blue
+  color: orange;
 }
 `
 
@@ -81,7 +82,7 @@ export const Linked = styled(LinkedinSquare)`
   width: 50px;
   animation: 5s ${bounceAnimation};
   &:hover{
-  color: blue
+  color: orange;
 }
 `
 
@@ -90,7 +91,7 @@ export const Google = styled(GoogleDrive)`
   width: 50px;
   animation: 5s ${bounceAnimation};
   &:hover{
-  color: blue
+  color: orange;
 }
 `
 

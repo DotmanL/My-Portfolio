@@ -1,17 +1,20 @@
 import styled from 'styled-components'
-import smart from './smart.png'
-import covid from './covid.png'
-import robo from './robo.png'
-import dotdev from './dotdev.png'
+import smart from './images/smart.png'
+import covid from './images/covid.png'
+import robo from './images/robo.png'
+import dotdev from './images/dotdev.png'
 
 
 export const Container= styled.div`
 height: auto;
 width: 100%;
-background: white;
-
-
-
+background: #17141d;
+display: flex;
+border-bottom: 2px solid orange;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 10px 20px;
 @media screen and (max-width: 800px) {
     display: flex;  
     width: 100vw;       
@@ -30,18 +33,20 @@ flex-flow: row wrap;
 @media screen and (max-width: 800px) {
     display: flex;
     margin-top: 10px;
-    width: 100vw;
+    width: 95vw;
+    margin-left: 2.5vw;
   }
 `
 
 
 export const Card = styled.div`
  display: flex;
-  height: 480px;
+  height: auto;
   width: 430px;
-  background-color: #17141d;
+  background-color: black;
   border-radius: 10px;
   box-shadow: 2px 10px 2px 2px #000;
+
  margin: 60px auto;
 flex-direction: row;
 flex-flow: row wrap;
@@ -63,26 +68,13 @@ flex-flow: row wrap;
         width: 95vw;
         height: 85vh;
         margin: 14px auto;
-        
-        
+        box-shadow: 0px 0px 0px 0px #000;
+        padding: 5px 10px;
            
   }
 `
 
-export const Bar = styled.div `
-background: white;
-width: 100%;
-height: 10px;
-display: flex;
-margin-top: -60px;
 
-@media screen and (max-width: 800px) {
-  margin-top: -85px; 
-        
-           
-  }
-
-`
 
 
 export const Image1 = styled.div`
@@ -104,8 +96,9 @@ export const Image1 = styled.div`
     }
    
     @media screen and (max-width: 800px) {
-     width: 320px;
-     margin-left: 10px;
+     width: 95vw;
+     margin-left: 0px;
+    
   }
 `
 
@@ -126,8 +119,9 @@ export const Image2 = styled.div`
     }
    
     @media screen and (max-width: 800px) {
-        width: 90vw;
-        margin-left: 10px;    
+     width: 95vw;
+     margin-left: 0px;
+    
   }
 `
 
@@ -149,8 +143,9 @@ export const Image3 = styled.div`
     }
    
     @media screen and (max-width: 800px) {
-        width: 90vw;
-        margin-left: 10px;    
+     width: 95vw;
+     margin-left: 0px;
+    
   }
 `
 export const Image4 = styled.div`
@@ -170,24 +165,28 @@ export const Image4 = styled.div`
     }
    
     @media screen and (max-width: 800px) {
-        width: 90vw;
-        margin-left: 10px;    
+     width: 95vw;
+     margin-left: 0px;
+    
   }
 `
 
 export const CTitle = styled.h2`
   color: white;
   font-weight: strong;
-  position: absolute;
-  margin-top: 230px;
-  margin-left: 20px;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 10px;
 `
 export const Desc = styled.h3`
   color: white;
   font-weight: 300;
-  position: absolute;
-  margin-top: 260px;
-  margin-left: 20px;
+  margin-top: -20px;
+  margin-left: 10px;
+  
+@media screen and (max-width: 800px) {
+   font-size: 15px;        
+  }
 `
 
 export const Demo =styled.a`

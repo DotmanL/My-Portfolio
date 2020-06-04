@@ -1,8 +1,8 @@
-import styled, { keyframes } from 'styled-components';
-import { bounceIn } from 'react-animations';
+import styled from 'styled-components';
+//import { bounceIn } from 'react-animations';
 import jakspot from './jakspot.jpg'
 
-const animation = keyframes`${bounceIn}`;
+// const animation = keyframes`${bounceIn}`;
 
 
 export const Navbar = styled.div `
@@ -18,7 +18,7 @@ flex-direction: row;
 align-items: center;
 justify-content: flex-end;
 height: 30px;
-animation: 1s ${animation};
+
 @media screen and (max-width: 800px) {
    
     width: 100%;       
@@ -31,10 +31,9 @@ export const NavLinks = styled.h3 `
 color: white;
 font-size: 20px;
 padding: 10px 15px;
-
   cursor: pointer;
   @media screen and (max-width: 800px) {
-  padding: 10px 10px;     
+  padding: 10px 5px;     
  }
     
 `
