@@ -1,14 +1,14 @@
-import React from 'react';
-import {Navbar, NavLinks} from './Nav.styles'
+import React, {Fragment} from 'react';
+import {NavLinks, NavmLinks, NavI, Navm, NavC} from './Nav.styles'
 import { ScrollTo } from "react-scroll-to";
-
+import ResponsiveMenu from 'react-responsive-navbar';
 const Nav = () => {
 
 
 return(
-      <Navbar>
-  
-      <ScrollTo>
+<Fragment>
+<NavC>
+<ScrollTo>
       {({ scroll }) => (
         <NavLinks onClick={() => scroll({ y: 430 })}>About</NavLinks>
           )}
@@ -31,9 +31,49 @@ return(
       {({ scroll }) => (
         <NavLinks onClick={() => scroll({ y: 4230 })}>Contact</NavLinks>
           )}
+        </ScrollTo>   
+       
+
+      
+<ResponsiveMenu
+        menuOpenButton={<NavI />}
+        menuCloseButton={<NavI />}
+        changeMenuOn="800px"
+        menu={
+          <Navm>
+             <ScrollTo>
+      {({ scroll }) => (
+        <NavmLinks onClick={() => scroll({ y: 430 })}>About</NavmLinks>
+          )}
         </ScrollTo>
+      
+        <ScrollTo>
+      {({ scroll }) => (
+        <NavmLinks onClick={() => scroll({ y: 930 })}>Skills</NavmLinks>
+          )}
+        </ScrollTo>
+
+        <ScrollTo>
+      {({ scroll }) => (
+        <NavmLinks onClick={() => scroll({ y: 1330 })}>Projects</NavmLinks>
+          )}
+        </ScrollTo>
+
+
+        <ScrollTo>
+      {({ scroll }) => (
+        <NavmLinks onClick={() => scroll({ y: 4230 })}>Contact</NavmLinks>
+          )}
+        </ScrollTo>
+           
+          </Navm>
         
-      </Navbar>
+        }
+      />
+  
+  </NavC>
+ 
+      </Fragment>
   )
 
 }

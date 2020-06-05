@@ -113,7 +113,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   }
 `
 export const Introt = styled.div`
-    font-size: 8vw;
+    font-size: 120px;
     color: white;
     margin-top: -90px;
  
@@ -122,7 +122,7 @@ export const Introt = styled.div`
     flex-direction: column;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     @media screen and (max-width: 800px) {
-     font-size: 6vw;
+     font-size: 8vw;
      
     
   }

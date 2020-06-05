@@ -8,6 +8,7 @@ background: #17141d;
 width: 100%;
 display: flex;
 flex-direction: column;
+align-items: center;
 border-top: 2px solid orange;
 border-bottom: 2px solid orange;
 padding: 20px 20px;
@@ -21,13 +22,24 @@ padding: 20px 20px;
 export const Header= styled.div`
 display: flex;
 flex-direction: column;
-margin-left: 150px;
+justify-content: center;
 
 @media screen and (max-width: 800px) {
  align-items: center;
  margin-left: 0px;
   }
 `
+
+
+export const Title =styled.h1 `
+font-size: 25px;
+color: white;
+margin-top: -20px;
+background: green;
+padding: 5px 15px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+`
+
 
 export const Details= styled.div`
 height: auto;
@@ -37,15 +49,11 @@ justify-content: center;
 @media screen and (max-width: 800px) {
   display: flex;
   flex-direction: column;
- 
+  align-items: center;
   }
 `
 
-export const Title =styled.h1 `
-font-size: 25px;
-color: white;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-`
+
 export const PostContainer =styled.div`
 background: white;
 display: flex;
@@ -58,8 +66,11 @@ border: 2px solid orange;
 margin-top: 20px;
 padding: 20px 20px;
 @media screen and (max-width: 800px) {
-  margin-left: 2px;
   width: 90vw;
+  margin-left: 0px;
+  height: auto;
+
+ 
   }
 `
 
@@ -68,15 +79,11 @@ export const Post = styled.p`
 font-size: 20px;
 color: black;
 font-style: italic;
-
 text-align: center;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 @media screen and (max-width: 800px) {
-      width: 90vw;
-      font-size: 13px;
-      text-align: center;
-     
+   height: auto;
   }
 `
 export const ImgC = styled.div`
@@ -92,8 +99,11 @@ height:430px;
 align-items: center;
 border-radius: 8px;
 @media screen and (max-width: 800px) {
-  margin-left: 2px;
+  height: 95vh;
   width: 90vw;
+  display: flex;
+flex-direction: row;
+margin-left: 0px;
   }
 `
 
@@ -114,7 +124,8 @@ background-size: cover;
     }
  
   @media screen and (max-width: 800px) {
-    width: 80vw;
+    width: 85vw;
+    height: 90vh;
   }
  
 ` 

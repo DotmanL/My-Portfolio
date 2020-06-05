@@ -20,7 +20,11 @@ import {
 	Git,
 	Github,
   Html,
-  Others
+	Others,
+	Fr,
+	
+	Be,
+	Ot,
 } from './Skills.styles'
 
 const Skills = () => {
@@ -30,8 +34,11 @@ const Skills = () => {
 				<Title>Skills</Title>
 			</Header>
     <SubContainer>
-			<Logo>
-        <p> Front-End</p>
+			
+		
+			
+			<Logo>  
+				<Fr> Front-End </Fr> 
         <Html />
 				<Css />
         <Reactjs />
@@ -39,17 +46,20 @@ const Skills = () => {
         <Gatsby />
         </Logo>
 
-        <Backend>
-        <p> Back-End and Databases</p>
+
+        <Backend>   
+					<Be>Backend and Databases</Be>   
         <Nodejs />
 				<Express />
         <MongoDb />
 				<Postgre />
         <FireBase />
         </Backend>
-          <Others>
+          
 
-          <p> Design, Source Control and Hosting Platforms</p>
+	
+					<Others>
+						<Ot>UI/UX Design, Source Control and Hosting Services</Ot>
 				<Invision />
 				<Figma />
 				

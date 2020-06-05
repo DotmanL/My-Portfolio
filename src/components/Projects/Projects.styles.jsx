@@ -21,6 +21,26 @@ padding: 10px 20px;
   }
 `
 
+export const Header= styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+@media screen and (max-width: 800px) {
+ align-items: center;
+ margin-left: 0px;
+  }
+`
+
+
+export const Title =styled.h1 `
+font-size: 25px;
+color: white;
+margin-top: -9px;
+background: green;
+padding: 5px 15px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+`
 
 export const CardContent= styled.div`
 
@@ -65,7 +85,7 @@ flex-flow: row wrap;
 
 @media screen and (max-width: 800px) {
         width: 95vw;
-        height: 85vh;
+        
         margin: 14px auto;
         box-shadow: 0px 0px 0px 0px #000;
         padding: 5px 10px;
@@ -97,8 +117,9 @@ export const Image1 = styled.div`
     }
    
     @media screen and (max-width: 800px) {
-     width: 95vw;
+      width: 95vw;
      margin-left: 0px;
+     height: 40vh;
     
   }
 `
@@ -120,8 +141,9 @@ export const Image2 = styled.div`
     }
    
     @media screen and (max-width: 800px) {
-     width: 95vw;
+      width: 95vw;
      margin-left: 0px;
+     height: 40vh;
     
   }
 `
@@ -144,8 +166,9 @@ export const Image3 = styled.div`
     }
    
     @media screen and (max-width: 800px) {
-     width: 95vw;
+      width: 95vw;
      margin-left: 0px;
+     height: 40vh;
     
   }
 `
@@ -166,8 +189,9 @@ export const Image4 = styled.div`
     }
    
     @media screen and (max-width: 800px) {
-     width: 95vw;
+      width: 95vw;
      margin-left: 0px;
+     height: 40vh;
     
   }
 `
@@ -176,9 +200,11 @@ export const CTitle = styled.h2`
   color: white;
   font-weight: strong;
   margin-left: 10px;
+
   @media screen and (max-width: 800px) {
-    margin-top: -80px;
-    
+  width: 80vw; 
+
+  font-size: 15px; 
   }
 `
 export const Desc = styled.p`
@@ -187,8 +213,8 @@ export const Desc = styled.p`
   margin-left: 10px;
   margin-top: -15px;
   @media screen and (max-width: 800px) {
-    margin-top: -150px;
-    
+    width: 90vw; 
+    font-size: 15px;
   }
 
 `
@@ -198,7 +224,7 @@ font-size: 25px;
 color: yellow;
 display: flex;
 flex-direction: row;
-align-items: flex-end;
+
 margin-bottom: 20px;
 margin-left: 10px;
 :hover{
@@ -215,7 +241,6 @@ color: yellow;
 display: flex;
 flex-direction: row;
 margin-left: 20px;
-align-items: flex-end;
 margin-bottom: 20px;
 
 :hover{

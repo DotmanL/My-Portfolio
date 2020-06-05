@@ -63,7 +63,8 @@ export const Title =styled.h1 `
 font-size: 25px;
 color: white;
 margin-top: 0px;
-background: black;
+background: green;
+padding: 5px 15px;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 `
 
@@ -71,11 +72,9 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 export const Logo =styled.div`
 display: flex;
 background: white;
-margin-top: -10px;
 flex-direction: row;
 flex-flow: row wrap;
-padding: 40px 20px;
-margin-top: 15px;
+padding: 10px 20px;
 border: 2px solid orange;
 justify-content: space-between;
 border-radius: 8px;
@@ -84,18 +83,33 @@ width: 25%;
   display: flex;
   margin-left: 7.5vw;
 width: 85vw;
- 
+height: auto;
   }
+`
+export const Fr = styled.h2`
+color: black;
+border-radius: 8px;
+padding: 5px 5px;
+text-align: center;
+width: 85vw;
+:hover {
+border-bottom: 2px solid orange;
+
+cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  
+  
+}
+
 `
 
 export const Backend =styled.div`
 display: flex;
 background: white;
-margin-top: -10px;
 flex-direction: row;
 flex-flow: row wrap;
-padding: 40px 20px;
-margin-top: 15px;
+padding: 10px 20px;
 justify-content: space-between;
 margin-left: 20px;
 width: 25%;
@@ -103,20 +117,35 @@ border: 2px solid orange;
 border-radius: 8px;
 @media screen and (max-width: 800px) {
   display: flex;
-  margin-left: 0px;
-  width: 85vw;
   margin-left: 7.5vw;
+width: 85vw;
+height: auto;
+margin-top: 10px;
   }
 `
+
+export const Be = styled.h2`
+color: black;
+border-radius: 8px;
+padding: 5px 5px;
+text-align: center;
+width: 85vw;
+:hover {
+border-bottom: 2px solid orange;
+
+cursor: pointer;
+}
+`
+
+
 export const Others =styled.div`
 display: flex;
 background: white;
-margin-top: -10px;
+
 flex-direction: row;
 flex-flow: row wrap;
-padding: 40px 20px;
+padding: 10px 20px;
 border: 2px solid orange;
-margin-top: 15px;
 justify-content: space-between;
 margin-left: 20px;
 width: 25%;
@@ -124,15 +153,33 @@ border-radius: 8px;
 
 @media screen and (max-width: 800px) {
   display: flex;
- margin-left: 7.5vw;
- width: 85vw;
+  margin-left: 7.5vw;
+width: 85vw;
+height: auto;
+margin-top: 10px;
  
   }
+`
+
+export const Ot =styled.h2`
+color: black;
+border-radius: 8px;
+height: 50px;
+text-align: center;
+font-size: 15px;
+width: 85vw;
+:hover {
+border-bottom: 2px solid orange;
+
+cursor: pointer;
+}
+
 `
 
 export const Css =styled(css)`
 width: 100px;
 height: 100px;
+
 `
 
 

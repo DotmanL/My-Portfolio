@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, 
+import { Container, Header, Title,
   Card, CTitle, Image1, Image2, Image3,
   Image4,  Desc, Demo, Code, CardContent } from './Projects.styles';
   import ScrollAnimation from 'react-animate-on-scroll';
@@ -9,6 +9,10 @@ import { Container,
 const Projects = () => {
   return (
    <Container>
+
+<Header>
+    <Title>Projects</Title>
+    </Header>
      <ScrollAnimation animateIn="fadeIn" duration={2} delay={3}>
   <CardContent>
 
