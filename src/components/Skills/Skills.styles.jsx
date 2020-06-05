@@ -50,7 +50,7 @@ width: 100vw;
 export const Header= styled.div`
 display: flex;
 flex-direction: column;
-margin-left: 150px;
+justify-content: center;
 
 @media screen and (max-width: 800px) {
  align-items: center;
@@ -63,6 +63,7 @@ export const Title =styled.h1 `
 font-size: 25px;
 color: white;
 margin-top: 0px;
+background: black;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 `
 
@@ -75,6 +76,7 @@ flex-direction: row;
 flex-flow: row wrap;
 padding: 40px 20px;
 margin-top: 15px;
+border: 2px solid orange;
 justify-content: space-between;
 border-radius: 8px;
 width: 25%;
@@ -97,6 +99,7 @@ margin-top: 15px;
 justify-content: space-between;
 margin-left: 20px;
 width: 25%;
+border: 2px solid orange;
 border-radius: 8px;
 @media screen and (max-width: 800px) {
   display: flex;
@@ -112,6 +115,7 @@ margin-top: -10px;
 flex-direction: row;
 flex-flow: row wrap;
 padding: 40px 20px;
+border: 2px solid orange;
 margin-top: 15px;
 justify-content: space-between;
 margin-left: 20px;

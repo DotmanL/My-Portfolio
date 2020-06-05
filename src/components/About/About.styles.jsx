@@ -33,7 +33,7 @@ export const Details= styled.div`
 height: auto;
 display: flex;
 flex-direction: row;
-
+justify-content: center;
 @media screen and (max-width: 800px) {
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ export const PostContainer =styled.div`
 background: white;
 display: flex;
 flex-direction: row;
-margin-left: 70px;
+margin-left: 20px;
 width: 600px;
 height:430px;
 border-radius: 8px;
@@ -86,7 +86,7 @@ background: white;
 justify-content: center;
 border: 2px solid orange;
 margin-top: 20px;
-margin-left: 80px;
+margin-left: 20px;
 width: 300px;
 height:430px;
 align-items: center;

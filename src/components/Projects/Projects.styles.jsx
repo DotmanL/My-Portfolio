@@ -46,7 +46,6 @@ export const Card = styled.div`
   background-color: black;
   border-radius: 10px;
   box-shadow: 2px 10px 2px 2px #000;
-
  margin: 60px auto;
 flex-direction: row;
 flex-flow: row wrap;
@@ -70,6 +69,8 @@ flex-flow: row wrap;
         margin: 14px auto;
         box-shadow: 0px 0px 0px 0px #000;
         padding: 5px 10px;
+        flex-direction: row;
+flex-flow: row wrap;
            
   }
 `
@@ -174,19 +175,22 @@ export const Image4 = styled.div`
 export const CTitle = styled.h2`
   color: white;
   font-weight: strong;
-  position: relative;
-  margin-top: 5px;
   margin-left: 10px;
+  @media screen and (max-width: 800px) {
+    margin-top: -80px;
+    
+  }
 `
-export const Desc = styled.h3`
+export const Desc = styled.p`
   color: white;
   font-weight: 300;
-  margin-top: -20px;
   margin-left: 10px;
-  
-@media screen and (max-width: 800px) {
-   font-size: 15px;        
+  margin-top: -15px;
+  @media screen and (max-width: 800px) {
+    margin-top: -150px;
+    
   }
+
 `
 
 export const Demo =styled.a`
