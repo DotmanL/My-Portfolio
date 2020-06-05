@@ -18,8 +18,13 @@ justify-content: flex-end;
   z-index: 1;
 
   @media screen and (max-width: 500px) {
-   width: 100vw;
-  
+   width: 40vw;
+   display: flex;
+flex-direction: row;
+justify-content: flex-end;
+margin-left: 60vw;
+opacity: 0.8;
+
   }
 `
 
@@ -44,7 +49,11 @@ width: 50px;
 height: 50px;
 color: orange;
 margin-left: 80vw;
+@media screen and (max-width: 500px) {
 
+
+
+  }
 `
 
 export const NavLinks = styled.h3 `
