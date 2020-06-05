@@ -48,7 +48,7 @@ justify-content: space-evenly;
 align-items: center;
 display: flex;
 flex-direction: row;
-margin-top: 150px;
+margin-top: 170px;
 width: 300px;
 position: absolute;
 
@@ -113,9 +113,22 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   }
 `
 export const Introt = styled.div`
-    font-size: 120px;
+    font-size: 80px;
     color: white;
-    margin-top: -90px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    @media screen and (max-width: 800px) {
+     font-size: 8vw;
+     
+    
+  }
+`;
+export const Introf = styled.div`
+    font-size: 100px;
+    color: white;
+    margin-top: 0px;
  
     align-items: center;
     display: flex;
@@ -127,7 +140,6 @@ export const Introt = styled.div`
     
   }
 `;
-
 
 export const Introm = styled.div`
     font-size: 5vw;

@@ -14,8 +14,8 @@ import {ReactComponent as node} from './logos/nodejs.svg';
 import {ReactComponent as postgre} from './logos/postgresql.svg';
 import {ReactComponent as react} from './logos/react.svg';
 import {ReactComponent as redux} from './logos/redux.svg';
-
-
+import {ReactComponent as netlify} from './logos/netlify.svg';
+import {ReactComponent as heroku} from './logos/heroku.svg';
 
 
 export const Container= styled.div`
@@ -23,7 +23,6 @@ width: 100%;
 background: #17141d;
 display: flex;
 flex-direction: column;
-align-items: center;
 border-bottom: 2px solid orange;
 @media screen and (max-width: 800px) {
   
@@ -64,8 +63,13 @@ font-size: 25px;
 color: white;
 margin-top: 0px;
 background: green;
+width: 90px;
+margin-left: 45%;
 padding: 5px 15px;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+@media screen and (max-width: 800px) {
+ margin-left: 0%;
+  }
 `
 
 
@@ -207,6 +211,7 @@ height: 100px;
 export const Git =styled(git)`
 width: 100px;
 height: 100px;
+margin-top: 15px;
 `
 
 export const Github =styled(github)`
@@ -251,6 +256,18 @@ export const MongoDb =styled(mongodb)`
 width: 100px;
 height: 100px;
 `
+
+export const Heroku =styled(heroku)`
+width: 100px;
+height: 100px;
+
+`
+export const Netlify =styled(netlify)`
+width: 100px;
+height: 100px;
+margin-top: 15px;
+`
+
 
 
 

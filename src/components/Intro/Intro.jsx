@@ -6,6 +6,7 @@ import {
   Git, 
   Introt, 
   Introm,
+  Introf,
   //Title,
   Icons,
   Twit,  
@@ -21,11 +22,16 @@ const Intro = () => {
 
 
      
+     <Introf> <Typed    
+        strings={['Hi, I am']}
+         typeSpeed={40}
+                /> </Introf>
+                  
      <Introt> <Typed    
-        strings={['I am Lawal Oladotun']}
+        strings={['Lawal Oladotun']}
          typeSpeed={40}
                 /> </Introt>
-                <br/>
+              
  
                 <Introm>               
                 <Typed 

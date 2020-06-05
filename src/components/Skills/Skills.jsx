@@ -19,6 +19,8 @@ import {
 	Gatsby,
 	Git,
 	Github,
+	Heroku,
+	Netlify,
   Html,
 	Others,
 	Fr,
@@ -26,13 +28,15 @@ import {
 	Be,
 	Ot,
 } from './Skills.styles'
-
+import ScrollAnimation from 'react-animate-on-scroll';
 const Skills = () => {
 	return (
 		<Container>
 			<Header>
 				<Title>Skills</Title>
 			</Header>
+
+			<ScrollAnimation animateIn="slideInUp" duration={2} delay={2}> 
     <SubContainer>
 			
 		
@@ -65,9 +69,12 @@ const Skills = () => {
 				
 				<Git />
 				<Github />
-        </Others>
+        <Heroku />
+				<Netlify/> 
+				</Others>
+        
         </SubContainer>
-		
+				</ScrollAnimation>
 		</Container>
 	)
 }
