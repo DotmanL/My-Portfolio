@@ -19,9 +19,9 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 `
 
 export const SubTitle =styled.h3 `
-font-size: 20px;
+font-size: 17px;
 color: white;
-margin-left: 50px;
+margin-left: 30px;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 `
 
