@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import {NavLinks, NavmLinks, NavI, Navm, NavC} from './Nav.styles'
+import {NavLinks, NavmLinks, NavI, Navm, NavC, NavCl} from './Nav.styles'
 import { ScrollTo } from "react-scroll-to";
 import ResponsiveMenu from 'react-responsive-navbar';
 const Nav = () => {
@@ -37,7 +37,7 @@ return(
       
 <ResponsiveMenu
         menuOpenButton={<NavI />}
-        menuCloseButton={<NavI />}
+        menuCloseButton={<NavCl />}
         changeMenuOn="800px"
         menu={
           <Navm>

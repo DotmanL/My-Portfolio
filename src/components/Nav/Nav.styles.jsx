@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import jakspot from './jakspot.jpg'
 import {Navicon} from'@styled-icons/evil/Navicon'
 // const animation = keyframes`${bounceIn}`;
-
+import {Close} from '@styled-icons/evaicons-solid/Close'
 
 
 
@@ -22,7 +22,7 @@ justify-content: flex-end;
    display: flex;
 flex-direction: row;
 justify-content: flex-end;
-margin-left: 60vw;
+margin-left: 55vw;
 opacity: 0.8;
 
   }
@@ -35,11 +35,7 @@ display: none;
 height: auto;
 display: flex;
 flex-direction: column;
-align-items: flex-end;
-
-
-
-  
+align-items: flex-end; 
   }
 
 `
@@ -51,7 +47,16 @@ color: orange;
 margin-left: 80vw;
 @media screen and (max-width: 500px) {
 
+  }
+`
 
+
+export const NavCl = styled(Close)`
+width: 50px;
+height: 50px;
+color: orange;
+margin-left: 80vw;
+@media screen and (max-width: 500px) {
 
   }
 `

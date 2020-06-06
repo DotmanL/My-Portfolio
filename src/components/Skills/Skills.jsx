@@ -36,7 +36,7 @@ const Skills = () => {
 				<Title>Skills</Title>
 			</Header>
 
-			<ScrollAnimation animateIn="slideInUp" duration={2} delay={2}> 
+			<ScrollAnimation animateIn="fadeIn" duration={2} delay={2}> 
     <SubContainer>
 			
 		

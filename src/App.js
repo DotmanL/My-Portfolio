@@ -7,13 +7,23 @@ import Skills from './components/Skills/Skills'
 import Nav from './components/Nav/Nav'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
-
+import { ToastContainer } from 'react-toastify';
+import { Zoom  } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+const styles = {
+  marginTop: "80px"
+};
 
 const App = () => {
   return (
     <div>
+      
+
+       
 <GlobalStyle />
+<ToastContainer style={styles} closeOnClick transition={Zoom}/>
       <Nav/>
+      
       <Intro />
       <About />
       <Skills />
