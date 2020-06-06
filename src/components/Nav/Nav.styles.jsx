@@ -18,11 +18,11 @@ justify-content: flex-end;
   z-index: 1;
 
   @media screen and (max-width: 500px) {
-   width: 40vw;
+   width: 30vw;
    display: flex;
 flex-direction: row;
 justify-content: flex-end;
-margin-left: 55vw;
+margin-left: 64.5vw;
 opacity: 0.8;
 
   }
