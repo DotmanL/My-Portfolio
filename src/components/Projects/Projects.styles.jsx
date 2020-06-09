@@ -1,8 +1,16 @@
-import styled from 'styled-components'
-import smart from './images/smart.png'
-import covid from './images/covid.png'
+import styled, {keyframes} from 'styled-components'
+import smart from './images/smart22.png'
+import covid from './images/covid22.png'
 import robo from './images/robo.png'
 import dotdev from './images/dotdev.png'
+import allr from './images/allrange.png'
+
+import {Github} from '@styled-icons/boxicons-logos/Github';
+import {LinkExternal} from '@styled-icons/boxicons-regular/LinkExternal'
+import {wobble, } from 'react-animations';
+ 
+
+const bounceAnimation = keyframes`${wobble}`;
 
 
 export const Container= styled.div`
@@ -49,6 +57,7 @@ height: auto;
 display: flex;
 flex-direction: row;
 flex-flow: row wrap;
+justify-content: center;
 
 @media screen and (max-width: 800px) {
     display: flex;
@@ -62,11 +71,12 @@ flex-flow: row wrap;
 export const Card = styled.div`
  display: flex;
   height: auto;
-  width: 430px;
-  background-color: black;
+  width: 400px;
+  background-color: #023e8a;
   border-radius: 10px;
   box-shadow: 2px 10px 2px 2px #000;
- margin: 60px auto;
+ margin-left: -20px;
+ margin-top: 90px;
 flex-direction: row;
 flex-flow: row wrap;
   transition: 0.4s ease-out;
@@ -85,8 +95,8 @@ flex-flow: row wrap;
 
 @media screen and (max-width: 800px) {
         width: 95vw;
-        
-        margin: 14px auto;
+        margin-left: -5px;
+        margin-top: 0px;
         box-shadow: 0px 0px 0px 0px #000;
         padding: 5px 10px;
         flex-direction: row;
@@ -100,43 +110,52 @@ flex-flow: row wrap;
 
 export const Image1 = styled.div`
   display: flex;
-  width: 400px;
-  height: 200px;
-  margin-top: 10px;
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
   margin-left: 15px;
-  background-image:url(${smart});
+  background-image:url(${allr});
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
+ border-radius: 8px;
+ border: 2px solid white;
   
   :hover{
       cursor: pointer;
-			transform: scale(1.05);
+			transform: scale(1.30);
 			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
    
     @media screen and (max-width: 800px) {
       width: 95vw;
-     margin-left: 0px;
+     margin-left: -5px;
      height: 40vh;
+     :hover{
+      cursor: pointer;
+			transform: scale(1.05);
+			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
     
   }
 `
 
 export const Image2 = styled.div`
-  width: 400px;
-  height: 200px;
-  margin-top: 10px;
+    display: flex;
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
   margin-left: 15px;
   background-image:url(${covid});
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
+  border-radius: 8px;
+ border: 2px solid white;
   
   :hover{
-			transform: scale(1.05);
+      cursor: pointer;
+			transform: scale(1.30);
 			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
    
@@ -144,24 +163,67 @@ export const Image2 = styled.div`
       width: 95vw;
      margin-left: 0px;
      height: 40vh;
+     :hover{
+      cursor: pointer;
+			transform: scale(1.05);
+			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
     
   }
 `
 
+export const Image5 = styled.div`
+
+display: flex;
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 15px;
+  background-image:url(${smart});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+ border: 2px solid white;
+  
+  :hover{
+      cursor: pointer;
+			transform: scale(1.30);
+			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+   
+    @media screen and (max-width: 800px) {
+      width: 95vw;
+     margin-left: 0px;
+     height: 40vh;
+     :hover{
+      cursor: pointer;
+			transform: scale(1.05);
+			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+    
+  }
+`
+
+
+
 export const Image3 = styled.div`
 
-  width: 400px;
-  height: 200px;
-  margin-top: 10px;
+display: flex;
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
   margin-left: 15px;
   background-image:url(${robo});
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
+  border-radius: 8px;
+ border: 2px solid white;
   
   :hover{
-			transform: scale(1.05);
+      cursor: pointer;
+			transform: scale(1.30);
 			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
    
@@ -169,6 +231,11 @@ export const Image3 = styled.div`
       width: 95vw;
      margin-left: 0px;
      height: 40vh;
+     :hover{
+      cursor: pointer;
+			transform: scale(1.05);
+			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
     
   }
 `
@@ -197,7 +264,7 @@ export const Image4 = styled.div`
 `
 
 export const CTitle = styled.h2`
-  color: white;
+  color: #f1faee;
   font-weight: strong;
   margin-left: 10px;
 
@@ -207,16 +274,52 @@ export const CTitle = styled.h2`
   font-size: 15px; 
   }
 `
-export const Desc = styled.p`
-  color: white;
+export const Desc = styled.h4`
+     color: #f1faee;
   font-weight: 300;
+  font-size: 15px;
   margin-left: 10px;
   margin-top: -15px;
   @media screen and (max-width: 800px) {
     width: 90vw; 
     font-size: 15px;
   }
+`
 
+
+export const Icons = styled.div`
+justify-content: space-evenly;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 10px;
+margin-top: 0vh;
+
+@media screen and (max-width: 800px) {
+    margin-top: -2vh;
+  }
+`
+
+
+export const Lk = styled(LinkExternal)`
+  color: white;
+  width: 30px;
+ 
+  &:hover{
+  color: orange;
+  animation: 5s ${bounceAnimation};
+}
+`
+
+
+export const Git = styled(Github)`
+  color: white;
+  width: 30px;
+  margin-left: 20px;
+  &:hover{
+  color: orange;
+  animation: 5s ${bounceAnimation};
+}
 `
 
 export const Demo =styled.a`
