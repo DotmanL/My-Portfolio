@@ -1,9 +1,10 @@
 import styled, {keyframes} from 'styled-components'
 import smart from './images/smart22.png'
 import covid from './images/covid22.png'
-import robo from './images/robo.png'
-import dotdev from './images/dotdev.png'
+import robo from './images/robo22.png'
+import dotdev from './images/dotdev22.png'
 import allr from './images/allrange.png'
+import devmeet from './images/devmeet22.png'
 
 import {Github} from '@styled-icons/boxicons-logos/Github';
 import {LinkExternal} from '@styled-icons/boxicons-regular/LinkExternal'
@@ -45,7 +46,7 @@ export const Title =styled.h1 `
 font-size: 25px;
 color: white;
 margin-top: -9px;
-background: green;
+font-style: italic;
 padding: 5px 15px;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 `
@@ -58,6 +59,7 @@ display: flex;
 flex-direction: row;
 flex-flow: row wrap;
 justify-content: center;
+margin-bottom: 50px;
 
 @media screen and (max-width: 800px) {
     display: flex;
@@ -73,7 +75,7 @@ export const Card = styled.div`
   height: auto;
   width: 400px;
   background-color: #023e8a;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 2px 10px 2px 2px #000;
  margin-left: -20px;
  margin-top: 90px;
@@ -96,7 +98,7 @@ flex-flow: row wrap;
 @media screen and (max-width: 800px) {
         width: 95vw;
         margin-left: -5px;
-        margin-top: 0px;
+        margin-top: 4px;
         box-shadow: 0px 0px 0px 0px #000;
         padding: 5px 10px;
         flex-direction: row;
@@ -112,8 +114,8 @@ export const Image1 = styled.div`
   display: flex;
   width: 500px;
   height: 300px;
-  margin-top: 50px;
-  margin-left: 15px;
+  margin-top: 10px;
+  margin-left: 0px;
   background-image:url(${allr});
   background-size: cover;
   background-repeat: no-repeat;
@@ -129,7 +131,7 @@ export const Image1 = styled.div`
    
     @media screen and (max-width: 800px) {
       width: 95vw;
-     margin-left: -5px;
+     margin-left: -10px;
      height: 40vh;
      :hover{
       cursor: pointer;
@@ -145,7 +147,7 @@ export const Image2 = styled.div`
   width: 500px;
   height: 300px;
   margin-top: 50px;
-  margin-left: 15px;
+  margin-left: 0px;
   background-image:url(${covid});
   background-size: cover;
   background-repeat: no-repeat;
@@ -161,7 +163,39 @@ export const Image2 = styled.div`
    
     @media screen and (max-width: 800px) {
       width: 95vw;
-     margin-left: 0px;
+     margin-left: -10px;
+     height: 40vh;
+     :hover{
+      cursor: pointer;
+			transform: scale(1.05);
+			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+    
+  }
+`
+
+export const Image6 = styled.div`
+    display: flex;
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 0px;
+  background-image:url(${devmeet});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+ border: 2px solid white;
+  
+  :hover{
+      cursor: pointer;
+			transform: scale(1.30);
+			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+   
+    @media screen and (max-width: 800px) {
+      width: 95vw;
+      margin-left: -10px;
      height: 40vh;
      :hover{
       cursor: pointer;
@@ -178,7 +212,7 @@ display: flex;
   width: 500px;
   height: 300px;
   margin-top: 50px;
-  margin-left: 15px;
+  margin-left: 0px;
   background-image:url(${smart});
   background-size: cover;
   background-repeat: no-repeat;
@@ -194,7 +228,7 @@ display: flex;
    
     @media screen and (max-width: 800px) {
       width: 95vw;
-     margin-left: 0px;
+      margin-left: -5px;
      height: 40vh;
      :hover{
       cursor: pointer;
@@ -213,7 +247,7 @@ display: flex;
   width: 500px;
   height: 300px;
   margin-top: 50px;
-  margin-left: 15px;
+  margin-left: 0px;
   background-image:url(${robo});
   background-size: cover;
   background-repeat: no-repeat;
@@ -229,7 +263,7 @@ display: flex;
    
     @media screen and (max-width: 800px) {
       width: 95vw;
-     margin-left: 0px;
+      margin-left: -10px;
      height: 40vh;
      :hover{
       cursor: pointer;
@@ -240,25 +274,34 @@ display: flex;
   }
 `
 export const Image4 = styled.div`
-  width: 400px;
-  height: 200px;
-  margin-top: 10px;
-  margin-left: 15px;
+  
+display: flex;
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 0px;
   background-image:url(${dotdev});
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
+  border-radius: 8px;
+ border: 2px solid white;
   
   :hover{
-			transform: scale(1.05);
+      cursor: pointer;
+			transform: scale(1.30);
 			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
    
     @media screen and (max-width: 800px) {
       width: 95vw;
-     margin-left: 0px;
+      margin-left: -10px;
      height: 40vh;
+     :hover{
+      cursor: pointer;
+			transform: scale(1.05);
+			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
     
   }
 `

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Header, Title,
   Card, CTitle, Image1, Image2, Image3, Image5,
-  Image4,  Desc, CardContent, Icons, Lk, Git } from './Projects.styles';
+  Image4, Image6, Desc, CardContent, Icons, Lk, Git } from './Projects.styles';
   import ScrollAnimation from 'react-animate-on-scroll';
 
 
@@ -39,7 +39,30 @@ React lazy to lazy load our pages, helps in improving perfomance.</Desc>
       </Card>
 
         
-      <Image2 />   
+          
+      <Image6 />   
+        <Card> 
+    
+       
+         <CTitle>Devemeet App </CTitle>
+         <Desc>A Covid19 Status Update App for global cases and cases by country, illustrated with the use of line and bar charts.
+         <p> Tools Used: Html, Css, </p>
+         </Desc>
+
+        
+         <Icons>
+        <a href="https://covid19updateapp.herokuapp.com/"  target="_blank" rel="noopener noreferrer"> <Lk /></a>
+        <a href="https://github.com/DotmanL/Covid19-Status-App"  target="_blank" rel="noopener noreferrer"><Git /></a>
+       
+        </Icons>
+         
+      </Card>
+
+
+
+
+
+      <Image2 alt= "covid"/>   
         <Card> 
     
        
@@ -72,24 +95,29 @@ React lazy to lazy load our pages, helps in improving perfomance.</Desc>
           </Icons>
         </Card>
 
-        <Image3 />  
+        <Image3 alt= "Robofriends" />  
       <Card> 
       
        
          <CTitle>Robofriends</CTitle>
          <Desc>A react app with the the basic functionality of filtering through the card list of robots by the use of a search bar component. Built with React Js and Redux was used for the state management.</Desc>
+         <Icons>
          <a href="https://dotmanl.github.io/Robofriendsdot"  target="_blank" rel="noopener noreferrer"><Lk /></a>
          <a href="https://github.com/DotmanL/Robofriendsdot"  target="_blank" rel="noopener noreferrer"><Git /></a>
+         </Icons>
+
       </Card>
 
-      <Image4 />   
+      <Image4 alt= "Dotdev"/>   
       <Card> 
   
        
          <CTitle>DotDev Blog</CTitle>
          <Desc>My personal blog site crated with Gatsby, still under development</Desc>
+         <Icons>
         <a href="https://dotdevblog.netlify.app/"  target="_blank" rel="noopener noreferrer"><Lk /></a>
         <a href="https://github.com/DotmanL/Dotdev-Blog"   target="_blank" rel="noopener noreferrer"><Git /></a>
+        </Icons>
       </Card>
      
       </CardContent>
