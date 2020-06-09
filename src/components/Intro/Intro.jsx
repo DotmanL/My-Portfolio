@@ -7,7 +7,6 @@ import {
   Introt, 
   Introm,
   Introf,
-  //Title,
   Icons,
   Twit,  
   Linked,
@@ -38,7 +37,6 @@ const Intro = () => {
                 
                 strings={[
                     'React Developer',
-                    'Mechanical Engineer',
                     'Aspiring FullStack Developer']}
                     typeSpeed={90}
                     backSpeed={50}

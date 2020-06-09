@@ -40,6 +40,18 @@ const Toggle = styled.div`
     display: flex;
   }
 `
+const Logo = styled.p`
+color: white;
+font-size: 25px;
+margin-top: 8px;
+font-family: 'Niconne', cursive;
+font-weight: 700;
+cursor: pointer;
+
+:hover{
+  color: goldenrod;
+}
+`
 
 const Navbox = styled.div`
   display: flex;
@@ -95,7 +107,7 @@ const Nav = () => {
   return (
     <Navigation>
       {/* <Logo /> */}
-      <h4 style={{'color': 'white'}}>DOTMANL</h4>
+      <Logo>DOTMANL</Logo>
       <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}

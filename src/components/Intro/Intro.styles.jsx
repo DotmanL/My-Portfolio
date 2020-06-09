@@ -102,6 +102,7 @@ export const Google = styled(GoogleDrive)`
 export const Title =styled.h4 `
 font-size: 20px;
 color:white;
+
 justify-content: center;
 margin-top: 80px;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

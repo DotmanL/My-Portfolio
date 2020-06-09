@@ -1,8 +1,13 @@
 import styled from 'styled-components'
+import contact from './contact.jpg'
+
 
 export const Container= styled.div`
 height: auto;
-background: #17141d;
+background-image: url(${contact});
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -13,22 +18,26 @@ width: 100%;
 export const Title =styled.h1 `
 font-size: 25px;
 color: white;
-background: green;
-margin-top: 1px;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border: 9px;
+margin-top: 20px;
+font-family: 'Piedra', cursive;
+
 `
 
 export const SubTitle =styled.h3 `
 font-size: 17px;
 color: white;
-margin-left: 30px;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+font-family: 'Piedra', cursive;
 `
 
 export const FormContainer = styled.div`
   width: 40vw;
-  border: 2px solid orange;
-
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
   @media screen and ( max-width: 800px) {
     
     width: 90vw;
@@ -46,12 +55,13 @@ overflow: auto;
     resize: none;
 padding-top: 10px;
 color: black;
-margin-left: 30px;
+
 margin-top: 15px;
 padding-left: 10px;
 font-size: 15px;
 height:100px;
 border-radius: 5px;
+border: 1px solid orange;
 
 @media screen and (max-width: 800px) {
     height: 100px;
@@ -65,7 +75,6 @@ height: 35px;
 outline: none;
 padding-left: 10px;
 background: white;
-margin-left: 30px;
 border-radius: 5px;
 margin-top: 15px;
 border: 1px solid orange;
@@ -75,11 +84,13 @@ border: 1px solid orange;
 `
 export const Button = styled.button`
   border: none;
-  width: 120px;
-  height: 51px;
+  width: 100px;
+  height: 41px;
   border: 2px solid orange;
   margin: 10px auto;
   margin-top: 20px;
+  border-radius: 8px;
+
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -116,6 +127,7 @@ export const Button = styled.button`
     right: 0;
     bottom: 0;
     background: green;
+    border-radius: 8px;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;

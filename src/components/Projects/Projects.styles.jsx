@@ -45,7 +45,7 @@ justify-content: center;
 export const Title =styled.h1 `
 font-size: 25px;
 color: white;
-margin-top: -9px;
+margin-top: 15px;
 font-style: italic;
 padding: 5px 15px;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -55,6 +55,7 @@ export const CardContent= styled.div`
 
 width: 100%;
 height: auto;
+margin-top: -70px;
 display: flex;
 flex-direction: row;
 flex-flow: row wrap;
@@ -63,7 +64,7 @@ margin-bottom: 50px;
 
 @media screen and (max-width: 800px) {
     display: flex;
-    margin-top: 10px;
+    margin-top: -80px;
     width: 95vw;
     margin-left: 2.5vw;
   }
@@ -76,9 +77,10 @@ export const Card = styled.div`
   width: 400px;
   background-color: #023e8a;
   border-radius: 8px;
-  box-shadow: 2px 10px 2px 2px #000;
+  box-shadow: 2px 10px 2px 2px white;
  margin-left: -20px;
  margin-top: 90px;
+ padding: 10px 20px;
 flex-direction: row;
 flex-flow: row wrap;
   transition: 0.4s ease-out;
@@ -107,14 +109,18 @@ flex-flow: row wrap;
   }
 `
 
-
+export const Tu =styled.p`
+color: #faf9f9;
+font-family: 'Piedra', cursive;
+font-size: 15px;
+`
 
 
 export const Image1 = styled.div`
   display: flex;
   width: 500px;
   height: 300px;
-  margin-top: 10px;
+  margin-top: 120px;
   margin-left: 0px;
   background-image:url(${allr});
   background-size: cover;

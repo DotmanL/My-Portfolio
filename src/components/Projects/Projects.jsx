@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Header, Title,
   Card, CTitle, Image1, Image2, Image3, Image5,
-  Image4, Image6, Desc, CardContent, Icons, Lk, Git } from './Projects.styles';
+  Image4, Image6, Desc, CardContent, Icons, Lk, Git, Tu } from './Projects.styles';
   import ScrollAnimation from 'react-animate-on-scroll';
 
 
@@ -23,15 +23,11 @@ const Projects = () => {
          <CTitle>Allrange Store</CTitle>
          <Desc>An eCommerce app built with react.
 
-Web app built with React, Redux for State Mangement.
-Redux-saga middlware to help handle our asynchrounous actions by making it more efficient.
-Styled Components for our css styling, more efficient in terms of code splitting.
-Firebase, firestore for our database.
-Node Api back-end to handle our payment integrations and nodemailer.
-Progressive Web App compliant.
-Payment Integration with Stripe and Paystack.
-Contact form with nodemailer on the back-end.
-React lazy to lazy load our pages, helps in improving perfomance.</Desc>
+Web app built with React based on the Zero to Mastery Udemy: Complete React Developer Course Project.
+This project was really extensive as it covered majority of the React and Redux ecosystem ranging from the usage of hooks to Lazy loading of pages, Compression, Testing using Jest, Progressive Web App Implementation, Usage of Redux Saga etc.. 
+I addded features such as Contact Page, Restyling of some components, PayStack Integration etc..
+<Tu> Tools Used: Styled Components, React, Redux, Firebase, NodeJS, Express,  Nodemailer for Email Service etc... </Tu>
+</Desc>
         <Icons>
         <a href="https://allrange.herokuapp.com/"  target="_blank" rel="noopener noreferrer"><Lk /></a>
         <a href="https://github.com/DotmanL/Allrange-app"   target="_blank" rel="noopener noreferrer"><Git /></a>
@@ -45,8 +41,8 @@ React lazy to lazy load our pages, helps in improving perfomance.</Desc>
     
        
          <CTitle>Devemeet App </CTitle>
-         <Desc>A Covid19 Status Update App for global cases and cases by country, illustrated with the use of line and bar charts.
-         <p> Tools Used: Html, Css, </p>
+         <Desc>A social media app for developers, this app was built based on the Brad Traversy MERN Stack Course project, more features such as email verification, password reset, full UI built with styled components, (also replicated Twitter Home Page), etc.. Many more feature still being added.
+         <Tu> Tools Used: Styled Components, React, Redux, MongoDB, NodeJS, Express, JSON Web Tokens, Nodemailer for Email Service etc... </Tu>
          </Desc>
 
         
@@ -68,7 +64,7 @@ React lazy to lazy load our pages, helps in improving perfomance.</Desc>
        
          <CTitle>Covid19 Status Update </CTitle>
          <Desc>A Covid19 Status Update App for global cases and cases by country, illustrated with the use of line and bar charts.
-         <p> Tools Used: Html, Css, </p>
+         <Tu> Tools Used: React, Css, Material UI. </Tu>
          </Desc>
 
         
@@ -80,6 +76,23 @@ React lazy to lazy load our pages, helps in improving perfomance.</Desc>
          
       </Card>
       
+      <Image4 alt= "Dotdev"/>   
+      <Card> 
+  
+       
+         <CTitle>DotDev Blog</CTitle>
+         <Desc>My personal blog site crated with Gatsby, still under development
+
+         <Tu> Tools Used: GatsbyJs, Styled Components. </Tu>
+         </Desc>
+         <Icons>
+        <a href="https://dotdevblog.netlify.app/"  target="_blank" rel="noopener noreferrer"><Lk /></a>
+        <a href="https://github.com/DotmanL/Dotdev-Blog"   target="_blank" rel="noopener noreferrer"><Git /></a>
+        </Icons>
+      </Card>
+
+
+
       <Image5 alt="Smart Brain" />   
       <Card>   
       
@@ -88,7 +101,9 @@ React lazy to lazy load our pages, helps in improving perfomance.</Desc>
            Stacks:
           I used React for the frontend
           Node and Express for the backend 
-          PostgreSQL for the database</Desc>
+          PostgreSQL for the database
+          <Tu> Tools Used: React, Tachyons for Styling, PostgreSQL, NodeJs, Express  </Tu>
+          </Desc>
           <Icons>
           <a href="https://smart-brain-dot.herokuapp.com/"  target="_blank" rel="noopener noreferrer"><Lk/></a>
           <a href="https://github.com/DotmanL/smart-brain"  target="_blank" rel="noopener noreferrer"> <Git /></a>
@@ -100,7 +115,10 @@ React lazy to lazy load our pages, helps in improving perfomance.</Desc>
       
        
          <CTitle>Robofriends</CTitle>
-         <Desc>A react app with the the basic functionality of filtering through the card list of robots by the use of a search bar component. Built with React Js and Redux was used for the state management.</Desc>
+         <Desc>A react app with the the basic functionality of filtering through the card list of robots by the use of a search bar component. Built with React Js and Redux was used for the state management.
+
+         <Tu> Tools Used: React, Redux, Tachyons. </Tu>
+         </Desc>
          <Icons>
          <a href="https://dotmanl.github.io/Robofriendsdot"  target="_blank" rel="noopener noreferrer"><Lk /></a>
          <a href="https://github.com/DotmanL/Robofriendsdot"  target="_blank" rel="noopener noreferrer"><Git /></a>
@@ -108,17 +126,7 @@ React lazy to lazy load our pages, helps in improving perfomance.</Desc>
 
       </Card>
 
-      <Image4 alt= "Dotdev"/>   
-      <Card> 
   
-       
-         <CTitle>DotDev Blog</CTitle>
-         <Desc>My personal blog site crated with Gatsby, still under development</Desc>
-         <Icons>
-        <a href="https://dotdevblog.netlify.app/"  target="_blank" rel="noopener noreferrer"><Lk /></a>
-        <a href="https://github.com/DotmanL/Dotdev-Blog"   target="_blank" rel="noopener noreferrer"><Git /></a>
-        </Icons>
-      </Card>
      
       </CardContent>
       </ScrollAnimation>

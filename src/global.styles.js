@@ -1,6 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+@import url(https://fonts.google.com/specimen/Piedra?sidebar.open&selection.family=Piedra#standard-styles);
+@import url(https://fonts.google.com/specimen/Niconne?slant=6&sidebar.open&selection.family=Niconne|Permanent+Marker|Piedra#standard-styles);
 
 body {
     font-family: "Open Sans Condensed";

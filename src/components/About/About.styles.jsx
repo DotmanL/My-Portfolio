@@ -1,6 +1,7 @@
 import styled  from 'styled-components'
 import me from './me.jpg';
 
+import {Github} from '@styled-icons/boxicons-logos/Github';
 
 export const Container= styled.div`
 height: auto;
@@ -31,13 +32,23 @@ justify-content: center;
 `
 
 
-export const Title =styled.h1 `
+export const Title =styled.h4 `
 font-size: 25px;
 color: white;
-margin-top: -20px;
-background: green;
+font-family: 'Piedra', cursive;
+margin-top: 10px;
 padding: 5px 15px;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+`
+
+
+
+export const Git = styled(Github)`
+  color: black;
+  width: 50px;
+  &:hover{
+  color: white;
+}
 `
 
 
@@ -55,14 +66,14 @@ justify-content: center;
 
 
 export const PostContainer =styled.div`
-background: white;
+background: #fca311;
+
 display: flex;
 flex-direction: row;
 margin-left: 20px;
 width: 600px;
 height:430px;
 border-radius: 8px;
-border: 2px solid orange;
 margin-top: 20px;
 padding: 20px 20px;
 @media screen and (max-width: 800px) {
@@ -89,15 +100,17 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 export const ImgC = styled.div`
 display: flex;
 flex-direction: row;
-background: white;
+
 justify-content: center;
-border: 2px solid orange;
+border: 2px solid #fca311;
 margin-top: 20px;
 margin-left: 20px;
 width: 300px;
 height:430px;
 align-items: center;
 border-radius: 8px;
+
+
 @media screen and (max-width: 800px) {
   height: 95vh;
   width: 90vw;

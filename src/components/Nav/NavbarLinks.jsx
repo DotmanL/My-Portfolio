@@ -9,6 +9,7 @@ const NavItem = styled.a`
   white-space: nowrap;
   margin: 0 1vw;
   transition: all 200ms ease-in;
+  cursor: pointer;
   position: relative;
   :after {
     position: absolute;
@@ -33,37 +34,78 @@ const NavItem = styled.a`
     font-size: 1.5rem;
     z-index: 6;
     color: #f1faee;
+    display: none;
   }
 `
+
+const NavItemMobile =styled(NavItem)`
+display: none;
+@media (max-width: 800px) {
+    padding: 20px 0;
+    font-size: 1.5rem;
+    z-index: 6;
+    color: #f1faee;
+    display: flex;
+  }
+`
+
+
 const NavbarLinks = () => {
   return (
     <>
    <ScrollTo>
       {({ scroll }) => (
-        <NavItem onClick={() => scroll({ y: 430 })}>About</NavItem>
+        <NavItem onClick={() => scroll({ y: 530 })}>About</NavItem>
           )}
         </ScrollTo>
         <NavItem href='https://dotdevblog.netlify.com'  target="_blank" rel="noopener noreferrer"> Blog </NavItem>
       
         <ScrollTo>
       {({ scroll }) => (
-        <NavItem onClick={() => scroll({ y: 1020 })}>Skills</NavItem>
+        <NavItem onClick={() => scroll({ y: 1130 })}>Skills</NavItem>
           )}
         </ScrollTo>
 
         <ScrollTo>
       {({ scroll }) => (
-        <NavItem onClick={() => scroll({ y: 1530 })}>Projects</NavItem>
+        <NavItem onClick={() => scroll({ y: 1640 })}>Projects</NavItem>
           )}
         </ScrollTo>
 
 
         <ScrollTo>
       {({ scroll }) => (
-        <NavItem onClick={() => scroll({ y: 4230 })}>Contact</NavItem>
+        <NavItem onClick={() => scroll({ y: 4130 })}>Contact</NavItem>
           )}
         </ScrollTo>   
      
+
+        <ScrollTo>
+{({ scroll }) => (
+	<NavItemMobile onClick={() => scroll({ y: 640 })}>About</NavItemMobile>
+		)}
+	</ScrollTo>
+	<NavItemMobile href='https://dotdevblog.netlify.com'  target="_blank" rel="noopener noreferrer"> Blog </NavItemMobile>
+
+	<ScrollTo>
+{({ scroll }) => (
+	<NavItemMobile onClick={() => scroll({ y: 2210 })}>Skills</NavItemMobile>
+		)}
+	</ScrollTo>
+
+	<ScrollTo>
+{({ scroll }) => (
+	<NavItemMobile onClick={() => scroll({ y: 3640 })}>Projects</NavItemMobile>
+		)}
+	</ScrollTo>
+
+
+	<ScrollTo>
+{({ scroll }) => (
+	<NavItemMobile onClick={() => scroll({ y: 7530 })}>Contact</NavItemMobile>
+		)}
+	</ScrollTo>   
+
     </>
   )
 }

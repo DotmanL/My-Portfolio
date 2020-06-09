@@ -36,13 +36,39 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 margin-bottom: 15px;
-
+margin-top: 30px;
+cursor: pointer;
 @media screen and (max-width: 800px) {
   display: flex;
 flex-direction: column;
 width: 100vw;
  
   }
+
+`
+export const Desc =styled.div`
+display: flex;
+background: white;
+flex-direction: row;
+padding: 10px 20px;
+border: 2px solid orange;
+
+justify-content: space-between;
+border-radius: 8px;
+margin-right: auto;
+margin-left: auto;
+width: 70%;
+
+@media screen and (max-width: 800px) {
+  display: flex;
+  margin-left: 7.5vw;
+width: 85vw;
+height: auto;
+  }
+
+`
+export const Tx =styled.h4`
+color: red;
 
 `
 
@@ -62,11 +88,10 @@ export const Title =styled.h1 `
 font-size: 25px;
 color: white;
 margin-top: 0px;
-background: green;
 width: 90px;
 margin-left: 45%;
 padding: 5px 15px;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family: 'Piedra', cursive;
 @media screen and (max-width: 800px) {
  margin-left: 0%;
   }
@@ -75,11 +100,12 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 
 export const Logo =styled.div`
 display: flex;
-background: white;
+background: #f1faee;
 flex-direction: row;
 flex-flow: row wrap;
 padding: 10px 20px;
 border: 2px solid orange;
+
 justify-content: space-between;
 border-radius: 8px;
 width: 25%;
@@ -110,7 +136,7 @@ cursor: pointer;
 
 export const Backend =styled.div`
 display: flex;
-background: white;
+background: #f1faee;
 flex-direction: row;
 flex-flow: row wrap;
 padding: 10px 20px;
@@ -144,7 +170,7 @@ cursor: pointer;
 
 export const Others =styled.div`
 display: flex;
-background: white;
+background: #f1faee;
 
 flex-direction: row;
 flex-flow: row wrap;
