@@ -48,7 +48,7 @@ color: white;
 margin-top: 15px;
 font-style: italic;
 padding: 5px 15px;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family: 'Piedra', cursive;
 `
 
 export const CardContent= styled.div`
@@ -111,7 +111,6 @@ flex-flow: row wrap;
 
 export const Tu =styled.p`
 color: #faf9f9;
-font-family: 'Piedra', cursive;
 font-size: 15px;
 `
 
@@ -332,6 +331,7 @@ export const Desc = styled.h4`
   @media screen and (max-width: 800px) {
     width: 90vw; 
     font-size: 15px;
+    margin-top: -5px;
   }
 `
 
