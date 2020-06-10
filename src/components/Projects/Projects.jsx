@@ -21,11 +21,8 @@ const Projects = () => {
         
        
          <CTitle>Allrange Store</CTitle>
-         <Desc>An eCommerce app built with react.
-
-Web app built with React based on the Zero to Mastery Udemy: Complete React Developer Course Project.
-This project was really extensive as it covered majority of the React and Redux ecosystem ranging from the usage of hooks to Lazy loading of pages, Compression, Testing using Jest, Progressive Web App Implementation, Usage of Redux Saga etc.. 
-I addded features such as Contact Page, Restyling of some components, PayStack Integration etc..
+         <Desc>An eCommerce app built with React based on the Zero to Mastery Udemy Course: Complete React Developer. This project was really extensive as it covered majority of the React and Redux ecosystem ranging from the usage of hooks to Lazy loading of pages, Compression, Testing using Jest, Progressive Web App Implementation, Usage of Redux Saga etc.. 
+I added features such as Contact Page, Restyling of some components, PayStack Integration etc..
 <Tu> Tools Used: Styled Components, React, Redux, Firebase, NodeJS, Express,  Nodemailer for Email Service etc... </Tu>
 </Desc>
         <Icons>
@@ -81,7 +78,7 @@ I addded features such as Contact Page, Restyling of some components, PayStack I
   
        
          <CTitle>DotDev Blog</CTitle>
-         <Desc>My personal blog site crated with Gatsby, still under development
+         <Desc>My personal blog site created with Gatsby, still under development.
 
          <Tu> Tools Used: GatsbyJs, Styled Components. </Tu>
          </Desc>
