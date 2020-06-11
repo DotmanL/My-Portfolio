@@ -10,8 +10,8 @@ width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
-border-top: 2px solid orange;
-border-bottom: 2px solid orange;
+border-top: 0px solid orange;
+border-bottom: 0px solid orange;
 padding: 20px 20px;
 @media screen and (max-width: 800px) {
   display: flex;
