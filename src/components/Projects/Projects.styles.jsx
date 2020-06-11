@@ -19,7 +19,7 @@ height: auto;
 width: 100%;
 background: #17141d;
 display: flex;
-border-bottom: 2px solid orange;
+border-bottom: 0px solid orange;
 flex-direction: column;
 align-items: center;
 justify-content: center;
