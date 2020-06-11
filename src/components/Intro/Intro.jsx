@@ -37,7 +37,7 @@ const Intro = () => {
                 
                 strings={[
                     'React Developer',
-                    'Aspiring FullStack Developer']}
+                    'FullStack Developer (MERN Stack']}
                     typeSpeed={90}
                     backSpeed={50}
                     loop >
