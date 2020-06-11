@@ -23,7 +23,7 @@ width: 100%;
 background: #17141d;
 display: flex;
 flex-direction: column;
-border-bottom: 2px solid orange;
+border-bottom: 0px solid orange;
 @media screen and (max-width: 800px) {
   
  
