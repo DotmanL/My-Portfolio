@@ -5,7 +5,7 @@ import {Github} from '@styled-icons/boxicons-logos/Github';
 
 export const Container= styled.div`
 height: auto;
-background: #17141d;
+background: black;
 width: 100%;
 display: flex;
 flex-direction: column;
@@ -35,7 +35,7 @@ justify-content: center;
 export const Title =styled.h4 `
 font-size: 25px;
 color: white;
-font-family: 'Piedra', cursive;
+font-family: 'Arvo', serif;
 margin-top: 10px;
 padding: 5px 15px;
 
@@ -66,8 +66,8 @@ justify-content: center;
 
 
 export const PostContainer =styled.div`
-background: #fca311;
-
+background: whitesmoke;
+border: 2px solid white;
 display: flex;
 flex-direction: row;
 margin-left: 20px;
@@ -100,9 +100,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 export const ImgC = styled.div`
 display: flex;
 flex-direction: row;
-
+background: rgb(28,36,97);
 justify-content: center;
-border: 2px solid #fca311;
+border: 1.5px solid white;
 margin-top: 20px;
 margin-left: 20px;
 width: 300px;

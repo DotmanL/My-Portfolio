@@ -15,7 +15,7 @@ const Navigation = styled.nav`
     left: 0;
   justify-content: space-between;
   text-transform: uppercase;
-  border-bottom: 1px solid orange;
+  border-bottom: 1px solid white;
   margin: 0 auto;
   padding: 0 5vw;
   margin-bottom: -5px;

@@ -4,7 +4,7 @@ import covid from './images/covid22.png'
 import robo from './images/robo22.png'
 import dotdev from './images/dotdev22.png'
 import allr from './images/allrange.png'
-import devmeet from './images/devmeet22.png'
+import devmeet from './images/devmeet23.png'
 
 import {Github} from '@styled-icons/boxicons-logos/Github';
 import {LinkExternal} from '@styled-icons/boxicons-regular/LinkExternal'
@@ -17,7 +17,7 @@ const bounceAnimation = keyframes`${wobble}`;
 export const Container= styled.div`
 height: auto;
 width: 100%;
-background: #17141d;
+background: black;
 display: flex;
 border-bottom: 0px solid orange;
 flex-direction: column;
@@ -48,7 +48,7 @@ color: white;
 margin-top: 15px;
 font-style: italic;
 padding: 5px 15px;
-font-family: 'Piedra', cursive;
+font-family: 'Arvo', serif;
 `
 
 export const CardContent= styled.div`

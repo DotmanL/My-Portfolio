@@ -20,7 +20,7 @@ font-size: 25px;
 color: white;
 border: 9px;
 margin-top: 20px;
-font-family: 'Piedra', cursive;
+font-family: 'Arvo', serif;
 
 `
 
@@ -28,7 +28,7 @@ export const SubTitle =styled.h3 `
 font-size: 17px;
 color: white;
 
-font-family: 'Piedra', cursive;
+font-family: 'Arvo', serif;
 `
 
 export const FormContainer = styled.div`

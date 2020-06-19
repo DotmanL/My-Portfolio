@@ -20,10 +20,10 @@ import {ReactComponent as heroku} from './logos/heroku.svg';
 
 export const Container= styled.div`
 width: 100%;
-background: #17141d;
+background: rgb(28,36,97);
 display: flex;
 flex-direction: column;
-border-bottom: 0px solid orange;
+border-bottom: 0px solid black;
 @media screen and (max-width: 800px) {
   
  
@@ -31,7 +31,7 @@ border-bottom: 0px solid orange;
 `
 export const SubContainer =styled.div`
 width: 100%;
-background: #17141d;
+background: rgb(28,36,97);
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -51,7 +51,7 @@ display: flex;
 background: white;
 flex-direction: row;
 padding: 10px 20px;
-border: 2px solid orange;
+border: 2px solid black;
 
 justify-content: space-between;
 border-radius: 8px;
@@ -91,7 +91,7 @@ margin-top: 0px;
 width: 90px;
 margin-left: 45%;
 padding: 5px 15px;
-font-family: 'Piedra', cursive;
+font-family: 'Arvo', serif;
 @media screen and (max-width: 800px) {
  margin-left: 0%;
   }
@@ -104,7 +104,7 @@ background: #f1faee;
 flex-direction: row;
 flex-flow: row wrap;
 padding: 10px 20px;
-border: 2px solid orange;
+border: 2px solid black;
 
 justify-content: space-between;
 border-radius: 8px;
@@ -123,7 +123,7 @@ padding: 5px 5px;
 text-align: center;
 width: 85vw;
 :hover {
-border-bottom: 2px solid orange;
+border-bottom: 2px solid black;
 
 cursor: pointer;
 }
@@ -143,7 +143,7 @@ padding: 10px 20px;
 justify-content: space-between;
 margin-left: 20px;
 width: 25%;
-border: 2px solid orange;
+border: 2px solid black;
 border-radius: 8px;
 @media screen and (max-width: 800px) {
   display: flex;
@@ -161,7 +161,7 @@ padding: 5px 5px;
 text-align: center;
 width: 85vw;
 :hover {
-border-bottom: 2px solid orange;
+border-bottom: 2px solid black;
 
 cursor: pointer;
 }
@@ -175,7 +175,7 @@ background: #f1faee;
 flex-direction: row;
 flex-flow: row wrap;
 padding: 10px 20px;
-border: 2px solid orange;
+border: 2px solid black;
 justify-content: space-between;
 margin-left: 20px;
 width: 25%;
@@ -199,7 +199,7 @@ text-align: center;
 font-size: 15px;
 width: 85vw;
 :hover {
-border-bottom: 2px solid orange;
+border-bottom: 2px solid black;
 
 cursor: pointer;
 }

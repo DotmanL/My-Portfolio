@@ -23,7 +23,7 @@ const Projects = () => {
          <CTitle>Allrange Store</CTitle>
          <Desc>An eCommerce app built with React based on the Zero to Mastery Udemy Course: Complete React Developer. This project was really extensive as it covered majority of the React and Redux ecosystem ranging from the usage of hooks to Lazy loading of pages, Compression, Testing using Jest, Progressive Web App Implementation, Usage of Redux Saga etc.. 
 I added features such as Contact Page, Restyling of some components, PayStack Integration etc..
-<Tu> Tools Used: Styled Components, React, Redux, Firebase, NodeJS, Express,  Nodemailer for Email Service etc... </Tu>
+<Tu> Tech Used: Styled Components, React, Redux, Firebase, NodeJS, Express,  Nodemailer for Email Service etc... </Tu>
 </Desc>
         <Icons>
         <a href="https://allrange.herokuapp.com/"  target="_blank" rel="noopener noreferrer"><Lk /></a>
@@ -39,7 +39,7 @@ I added features such as Contact Page, Restyling of some components, PayStack In
        
          <CTitle>Devemeet App </CTitle>
          <Desc>A social media app for developers, this app was built based on the Brad Traversy MERN Stack Course project, more features such as email verification, password reset, full UI built with styled components, (also replicated Twitter Home Page), etc.. Many more feature still being added.
-         <Tu> Tools Used: Styled Components, React, Redux, MongoDB, NodeJS, Express, JSON Web Tokens, Nodemailer for Email Service etc... </Tu>
+         <Tu> Tech Used: Styled Components, React, Redux, MongoDB, NodeJS, Express, JSON Web Tokens, Nodemailer for Email Service etc... </Tu>
          </Desc>
 
         
@@ -61,7 +61,7 @@ I added features such as Contact Page, Restyling of some components, PayStack In
        
          <CTitle>Covid19 Status Update </CTitle>
          <Desc>A Covid19 Status Update App for global cases and cases by country, illustrated with the use of line and bar charts.
-         <Tu> Tools Used: React, Css, Material UI. </Tu>
+         <Tu> Tech Used: React, Css, Material UI. </Tu>
          </Desc>
 
         
@@ -80,7 +80,7 @@ I added features such as Contact Page, Restyling of some components, PayStack In
          <CTitle>DotDev Blog</CTitle>
          <Desc>My personal blog site created with Gatsby, still under development.
 
-         <Tu> Tools Used: GatsbyJs, Styled Components. </Tu>
+         <Tu> Tech Used: GatsbyJs, Styled Components. </Tu>
          </Desc>
          <Icons>
         <a href="https://dotdevblog.netlify.app/"  target="_blank" rel="noopener noreferrer"><Lk /></a>
@@ -99,7 +99,7 @@ I added features such as Contact Page, Restyling of some components, PayStack In
           I used React for the frontend
           Node and Express for the backend 
           PostgreSQL for the database
-          <Tu> Tools Used: React, Tachyons for Styling, PostgreSQL, NodeJs, Express  </Tu>
+          <Tu> Tech Used: React, Tachyons for Styling, PostgreSQL, NodeJs, Express  </Tu>
           </Desc>
           <Icons>
           <a href="https://smart-brain-dot.herokuapp.com/"  target="_blank" rel="noopener noreferrer"><Lk/></a>
@@ -114,7 +114,7 @@ I added features such as Contact Page, Restyling of some components, PayStack In
          <CTitle>Robofriends</CTitle>
          <Desc>A react app with the the basic functionality of filtering through the card list of robots by the use of a search bar component. Built with React Js and Redux was used for the state management.
 
-         <Tu> Tools Used: React, Redux, Tachyons. </Tu>
+         <Tu> Tech Used: React, Redux, Tachyons. </Tu>
          </Desc>
          <Icons>
          <a href="https://dotmanl.github.io/Robofriendsdot"  target="_blank" rel="noopener noreferrer"><Lk /></a>
