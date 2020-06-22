@@ -38,14 +38,14 @@ I added features such as Contact Page, Restyling of some components, PayStack In
     
        
          <CTitle>Devemeet App </CTitle>
-         <Desc>A social media app for developers, this app was built based on the Brad Traversy MERN Stack Course project, more features such as email verification, password reset, full UI built with styled components, (also replicated Twitter Home Page), etc.. Many more feature still being added.
+         <Desc>A social media app for developers, this app was built based on the Brad Traversy MERN Stack Course project. I have added more features such as email verification, password reset, Google authentication, infinite scrolling,  full UI built with styled components, (also replicated Twitter Home Page), etc.. Many more feature still being added.
          <Tu> Tech Used: Styled Components, React, Redux, MongoDB, NodeJS, Express, JSON Web Tokens, Nodemailer for Email Service etc... </Tu>
          </Desc>
 
         
          <Icons>
-        <a href="https://covid19updateapp.herokuapp.com/"  target="_blank" rel="noopener noreferrer"> <Lk /></a>
-        <a href="https://github.com/DotmanL/Covid19-Status-App"  target="_blank" rel="noopener noreferrer"><Git /></a>
+        <a href="http://devmeetdot.herokuapp.com/"  target="_blank" rel="noopener noreferrer"> <Lk /></a>
+        <a href="https://github.com/DotmanL/Devmeet"  target="_blank" rel="noopener noreferrer"><Git /></a>
        
         </Icons>
          
