@@ -44,8 +44,8 @@ I added features such as Contact Page, Restyling of some components, PayStack In
 
         
          <Icons>
-        <a href="https://covid19updateapp.herokuapp.com/"  target="_blank" rel="noopener noreferrer"> <Lk /></a>
-        <a href="https://github.com/DotmanL/Covid19-Status-App"  target="_blank" rel="noopener noreferrer"><Git /></a>
+        <a href="http://devmeetdot.herokuapp.com/"  target="_blank" rel="noopener noreferrer"> <Lk /></a>
+        <a href="https://github.com/DotmanL/Devmeet"  target="_blank" rel="noopener noreferrer"><Git /></a>
        
         </Icons>
          
