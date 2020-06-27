@@ -16,7 +16,7 @@ import {ReactComponent as react} from './logos/react.svg';
 import {ReactComponent as redux} from './logos/redux.svg';
 import {ReactComponent as netlify} from './logos/netlify.svg';
 import {ReactComponent as heroku} from './logos/heroku.svg';
-
+import {ReactComponent as js} from './logos/javascript.svg';
 
 export const Container= styled.div`
 width: 100%;
@@ -289,6 +289,11 @@ height: 100px;
 
 `
 export const Netlify =styled(netlify)`
+width: 100px;
+height: 100px;
+margin-top: 15px;
+`
+export const Jscript =styled(js)`
 width: 100px;
 height: 100px;
 margin-top: 15px;

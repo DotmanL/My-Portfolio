@@ -53,7 +53,7 @@ width: 300px;
 position: absolute;
 
 @media screen and (max-width: 800px) {
-      margin-top: 170px;
+      margin-top: 100px;
       position: absolute;
     
   }
@@ -130,13 +130,13 @@ export const Introf = styled.div`
     font-size: 100px;
     color: white;
     margin-top: 0px;
- 
     align-items: center;
     display: flex;
     flex-direction: column;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     @media screen and (max-width: 800px) {
      font-size: 8vw;
+     margin-top: -20vh;
      
     
   }

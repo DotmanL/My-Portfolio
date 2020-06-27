@@ -7,6 +7,7 @@ import {
   Logo,
   Backend,
 	Css,
+	Jscript,
 	Express,
 	Figma,
 	Invision,
@@ -46,6 +47,7 @@ const Skills = () => {
 				<Fr> Front-End </Fr> 
         <Html title='Html' />
 				<Css  title='Css' />
+				<Jscript title='Javascript' />
         <Reactjs  title='React Js'/>
 				<Redux  title='Redux' />
         <Gatsby  title='Gatsby JS' />
