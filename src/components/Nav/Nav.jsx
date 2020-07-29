@@ -115,7 +115,7 @@ const Nav = () => {
         {navbarOpen ? <Hamburger open /> : <Hamburger />}
       </Toggle>
       {navbarOpen ? (
-        <Navbox>
+        <Navbox onClick={ () => setNavbarOpen(false)} >
           <NavbarLinks />
         </Navbox>
       ) : (
