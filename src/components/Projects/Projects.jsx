@@ -38,7 +38,7 @@ I added features such as Contact Page, Restyling of some components, PayStack In
     
        
          <CTitle>Devemeet App </CTitle>
-         <Desc>A social media app for developers, this app was built based on the Brad Traversy MERN Stack Course project, more features such as email verification, password reset, login with Google, infinite scrolling, image upload functionality, full UI built with styled components, (also replicated Twitter Home Page), etc.. Many more feature still being added.
+         <Desc>A social media app for developers, this app was built based on the Brad Traversy MERN Stack Course project, more features such as email verification, password reset, login with Google, infinite scrolling, image upload functionality, full UI built with styled components, (also replicated Twitter Home Page), etc.. Many more features still being added.
          <Tu> Tech Used: Styled Components, React, Redux, MongoDB, NodeJS, Express, JSON Web Tokens, Nodemailer for Email Service etc... </Tu>
          </Desc>
 
