@@ -1,404 +1,224 @@
-import styled, {keyframes} from 'styled-components'
-import smart from './images/smart22.png'
-import covid from './images/covid22.png'
-import robo from './images/robo22.png'
-import dotdev from './images/dotdev22.png'
-import allr from './images/allrange.png'
-import devmeet from './images/devmeet23.png'
+import styled, { keyframes } from 'styled-components'
+import { Github } from '@styled-icons/boxicons-logos/Github'
+import { LinkExternal } from '@styled-icons/boxicons-regular/LinkExternal'
+import { wobble } from 'react-animations'
 
-import {Github} from '@styled-icons/boxicons-logos/Github';
-import {LinkExternal} from '@styled-icons/boxicons-regular/LinkExternal'
-import {wobble, } from 'react-animations';
- 
+const bounceAnimation = keyframes`${wobble}`
 
-const bounceAnimation = keyframes`${wobble}`;
-
-
-export const Container= styled.div`
-height: auto;
-width: 100%;
-background: black;
-display: flex;
-border-bottom: 0px solid orange;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-padding: 10px 20px;
-@media screen and (max-width: 800px) {
-    display: flex;  
-    width: 100vw;       
-  }
+export const Container = styled.div`
+	height: auto;
+	width: 100%;
+	background: white;
+	display: flex;
+	border-bottom: 0px solid orange;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 0px;
+	@media screen and (max-width: 800px) {
+		display: flex;
+		width: 100vw;
+	}
 `
 
-export const Header= styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
+export const Header = styled.div`
+	display: flex;
+	flex-direction: column;
 
-@media screen and (max-width: 800px) {
- align-items: center;
- margin-left: 0px;
-  }
+	@media screen and (max-width: 800px) {
+		align-items: center;
+		margin-left: 0px;
+	}
 `
 
-
-export const Title =styled.h1 `
-font-size: 25px;
-color: white;
-margin-top: 15px;
-font-style: italic;
-padding: 5px 15px;
-font-family: 'Arvo', serif;
+export const Title = styled.h1`
+	font-size: 25px;
+	color: #023e8a;
+	margin: 5px 0px 0px 0px;
+	font-style: italic;
+	padding: 5px 15px;
+	font-family: 'Arvo', serif;
 `
 
-export const CardContent= styled.div`
-
-width: 100%;
-height: auto;
-margin-top: -70px;
-display: flex;
-flex-direction: row;
-flex-flow: row wrap;
-justify-content: center;
-margin-bottom: 50px;
-
-@media screen and (max-width: 800px) {
-    display: flex;
-    margin-top: -80px;
-    width: 95vw;
-    margin-left: 2.5vw;
-  }
+export const Main = styled.div`
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: center;
 `
 
+export const CardContent = styled.div`
+	/* width: 100%; */
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	/* flex-flow: row wrap; */
+	padding: 20px 60px;
+	justify-content: center;
+
+	@media screen and (max-width: 800px) {
+		display: flex;
+		padding: 25px;
+		flex-direction: column;
+		align-items: center;
+	}
+`
+
+export const Image = styled.img`
+	display: flex;
+	width: 500px;
+	height: 300px;
+	border-radius: 5px;
+	margin: 0px 10px 0px 0px;
+	box-shadow: 2px 10px 2px 2px #023e8a;
+	padding: 5px;
+	border: 2px solid #023e8a;
+
+	:hover {
+		cursor: pointer;
+		transform: scale(1.04);
+		transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+	}
+
+	@media screen and (max-width: 800px) {
+		width: 87vw;
+		height: 35vh;
+		padding: 5px;
+		margin: 0px 0px 0px 0px;
+		:hover {
+			cursor: pointer;
+			transform: scale(1.02);
+			transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+		}
+	}
+`
 
 export const Card = styled.div`
- display: flex;
-  height: auto;
-  width: 400px;
-  background-color: #023e8a;
-  border-radius: 8px;
-  box-shadow: 2px 10px 2px 2px white;
- margin-left: -20px;
- margin-top: 90px;
- padding: 10px 20px;
-flex-direction: row;
-flex-flow: row wrap;
-  transition: 0.4s ease-out;
-  position: relative;
-  &:hover {
-  transform: translateY(-20px);
-  transition: 0.4s ease-out;
-}
+	display: flex;
+	height: auto;
+	width: auto;
+	background-color: white;
+	border-radius: 8px;
+	border: 2px solid #023e8a;
+	box-shadow: 2px 10px 2px 2px #023e8a;
+	padding: 5px 5px;
+	flex-direction: column;
+	justify-content: center;
+	margin: 20px 0px 10px 0px;
+	transition: 0.4s ease-out;
+	position: relative;
+	&:hover {
+		transform: translateY(-2px);
+		transition: 0.4s ease-out;
+	}
 
+	:hover ~ .card {
+		position: relative;
+		left: 50px;
+		transition: 0.4s ease-out;
+	}
 
-:hover ~ .card {
-  position: relative;
-  left: 50px;
-  transition: 0.4s ease-out;
-}
-
-@media screen and (max-width: 800px) {
-        width: 95vw;
-        margin-left: -5px;
-        margin-top: 4px;
-        box-shadow: 0px 0px 0px 0px #000;
-        padding: 5px 10px;
-        flex-direction: row;
-flex-flow: row wrap;
-           
-  }
+	@media screen and (max-width: 800px) {
+		width: 87vw;
+		padding: 7px 10px;
+		margin: 20px 0px 10px 0px;
+	}
 `
 
-export const Tu =styled.p`
-color: #faf9f9;
-font-size: 15px;
+export const ProjectName = styled.h2`
+	margin-left: 6px;
+	color: black;
+	font-weight: 800;
+	@media screen and (max-width: 800px) {
+	}
 `
 
-
-export const Image1 = styled.div`
-  display: flex;
-  width: 500px;
-  height: 300px;
-  margin-top: 120px;
-  margin-left: 0px;
-  background-image:url(${allr});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
- border-radius: 8px;
- border: 2px solid white;
-  
-  :hover{
-      cursor: pointer;
-			transform: scale(1.30);
-			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-   
-    @media screen and (max-width: 800px) {
-      width: 95vw;
-     margin-left: -10px;
-     height: 40vh;
-     :hover{
-      cursor: pointer;
-			transform: scale(1.05);
-			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-    
-  }
+export const Desc = styled.h3`
+	color: black;
+	font-weight: 600;
+	text-align: justify;
+	margin: -18px 5px 2px 5px;
+	@media screen and (max-width: 800px) {
+		margin: -16px 5px 5px 5px;
+		font-weight: 550;
+	}
 `
-
-export const Image2 = styled.div`
-    display: flex;
-  width: 500px;
-  height: 300px;
-  margin-top: 50px;
-  margin-left: 0px;
-  background-image:url(${covid});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 8px;
- border: 2px solid white;
-  
-  :hover{
-      cursor: pointer;
-			transform: scale(1.30);
-			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-   
-    @media screen and (max-width: 800px) {
-      width: 95vw;
-     margin-left: -10px;
-     height: 40vh;
-     :hover{
-      cursor: pointer;
-			transform: scale(1.05);
-			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-    
-  }
-`
-
-export const Image6 = styled.div`
-    display: flex;
-  width: 500px;
-  height: 300px;
-  margin-top: 50px;
-  margin-left: 0px;
-  background-image:url(${devmeet});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 8px;
- border: 2px solid white;
-  
-  :hover{
-      cursor: pointer;
-			transform: scale(1.30);
-			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-   
-    @media screen and (max-width: 800px) {
-      width: 95vw;
-      margin-left: -10px;
-     height: 40vh;
-     :hover{
-      cursor: pointer;
-			transform: scale(1.05);
-			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-    
-  }
-`
-
-export const Image5 = styled.div`
-
-display: flex;
-  width: 500px;
-  height: 300px;
-  margin-top: 50px;
-  margin-left: 0px;
-  background-image:url(${smart});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 8px;
- border: 2px solid white;
-  
-  :hover{
-      cursor: pointer;
-			transform: scale(1.30);
-			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-   
-    @media screen and (max-width: 800px) {
-      width: 95vw;
-      margin-left: -5px;
-     height: 40vh;
-     :hover{
-      cursor: pointer;
-			transform: scale(1.05);
-			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-    
-  }
-`
-
-
-
-export const Image3 = styled.div`
-
-display: flex;
-  width: 500px;
-  height: 300px;
-  margin-top: 50px;
-  margin-left: 0px;
-  background-image:url(${robo});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 8px;
- border: 2px solid white;
-  
-  :hover{
-      cursor: pointer;
-			transform: scale(1.30);
-			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-   
-    @media screen and (max-width: 800px) {
-      width: 95vw;
-      margin-left: -10px;
-     height: 40vh;
-     :hover{
-      cursor: pointer;
-			transform: scale(1.05);
-			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-    
-  }
-`
-export const Image4 = styled.div`
-  
-display: flex;
-  width: 500px;
-  height: 300px;
-  margin-top: 50px;
-  margin-left: 0px;
-  background-image:url(${dotdev});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 8px;
- border: 2px solid white;
-  
-  :hover{
-      cursor: pointer;
-			transform: scale(1.30);
-			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-   
-    @media screen and (max-width: 800px) {
-      width: 95vw;
-      margin-left: -10px;
-     height: 40vh;
-     :hover{
-      cursor: pointer;
-			transform: scale(1.05);
-			transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-    
-  }
-`
-
-export const CTitle = styled.h2`
-  color: #f1faee;
-  font-weight: strong;
-  margin-left: 10px;
-
-  @media screen and (max-width: 800px) {
-  width: 80vw; 
-
-  font-size: 15px; 
-  }
-`
-export const Desc = styled.h4`
-     color: #f1faee;
-  font-weight: 300;
-  font-size: 15px;
-  margin-left: 10px;
-  margin-top: -15px;
-  @media screen and (max-width: 800px) {
-    width: 90vw; 
-    font-size: 15px;
-    margin-top: -5px;
-  }
-`
-
 
 export const Icons = styled.div`
-justify-content: space-evenly;
-display: flex;
-flex-direction: row;
-align-items: center;
-margin-left: 10px;
-margin-top: 0vh;
-
-@media screen and (max-width: 800px) {
-    margin-top: -2vh;
-  }
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 2px 4px 10px 0px;
+	padding: 0px 10px;
+	@media screen and (max-width: 800px) {
+		margin-top: 6px;
+		margin-left: 3px;
+	}
 `
-
 
 export const Lk = styled(LinkExternal)`
-  color: white;
-  width: 30px;
- 
-  &:hover{
-  color: orange;
-  animation: 5s ${bounceAnimation};
-}
-`
+	color: black;
+	width: 40px;
 
+	&:hover {
+		color: #023e8a;
+		animation: 5s ${bounceAnimation};
+	}
+`
 
 export const Git = styled(Github)`
-  color: white;
-  width: 30px;
-  margin-left: 20px;
-  &:hover{
-  color: orange;
-  animation: 5s ${bounceAnimation};
-}
+	color: black;
+	width: 40px;
+	margin-left: 20px;
+	&:hover {
+		color: #023e8a;
+		animation: 5s ${bounceAnimation};
+	}
 `
 
-export const Demo =styled.a`
-font-size: 25px;
-color: yellow;
-display: flex;
-flex-direction: row;
-
-margin-bottom: 20px;
-margin-left: 10px;
-:hover{
-  cursor: pointer;
-}
-@media screen and (max-width: 800px) {
-        
-  }
+export const TechDiv = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-flow: row wrap;
+	width: 100%;
+	margin: -20px 4px 5px 4px;
 `
 
-export const Code =styled.a`
-font-size: 25px;
-color: yellow;
-display: flex;
-flex-direction: row;
-margin-left: 20px;
-margin-bottom: 20px;
+export const Tech = styled.div`
+	background: #023e8a;
+	color: white;
+	display: flex;
+	border-radius: 5px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 4px;
+	padding: 1px 10px;
+	height: 30px;
 
-:hover{
-  cursor: pointer;
-}
-@media screen and (max-width: 800px) {
-         
-  }
+	&:hover {
+		background: white;
+		color: #023e8a;
+	}
+	@media screen and (max-width: 800px) {
+		padding: 1px 9px;
+		margin: 10px 3px;
+	}
+`
+
+export const Theader = styled.h2`
+	font-size: 23px;
+	color: #023e8a;
+	font-weight: 900;
+	align-self: center;
+	margin-top: 4px;
+`
+
+export const Tu = styled.h3`
+	font-size: 15px;
+	font-weight: 900;
+	@media screen and (max-width: 800px) {
+		font-size: 13px;
+	}
 `

@@ -1,25 +1,20 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from 'styled-components'
 
-import {Github} from '@styled-icons/boxicons-logos/Github';
-import {Twitter} from '@styled-icons/entypo-social/Twitter';
+import { Github } from '@styled-icons/boxicons-logos/Github'
+import { Twitter } from '@styled-icons/entypo-social/Twitter'
 
-import {LinkedinSquare} from '@styled-icons/boxicons-logos/LinkedinSquare';
-import {GoogleDrive} from '@styled-icons/fa-brands/GoogleDrive';
+import { LinkedinSquare } from '@styled-icons/boxicons-logos/LinkedinSquare'
+import { GoogleDrive } from '@styled-icons/fa-brands/GoogleDrive'
 import jakspot from './jakspot.jpg'
 
+import { wobble } from 'react-animations'
 
+const bounceAnimation = keyframes`${wobble}`
 
-import {wobble, } from 'react-animations';
- 
-
-const bounceAnimation = keyframes`${wobble}`;
-
-
-
-
-export const IntroContainer = styled.div `
-background-image: url(${jakspot});
+export const IntroContainer = styled.div`
+/* background-image: url(${jakspot}); */
 height: 100vh;
+background: #023e8a;
 width: 100%;
 
 justify-content: center;
@@ -31,7 +26,7 @@ display: flex;
 flex-direction: column;
 position: relative;
 @media screen and (max-width: 800px) {
-        height: 100vh; 
+        height: 70vh; 
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -40,118 +35,107 @@ position: relative;
         
 `
 
-
-
-
 export const Icons = styled.div`
-justify-content: space-evenly;
-align-items: center;
-display: flex;
-flex-direction: row;
-margin-top: 170px;
-width: 300px;
-position: absolute;
+	justify-content: space-evenly;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	width: 300px;
+	margin-top: 90px;
 
-@media screen and (max-width: 800px) {
-      margin-top: 100px;
-      position: absolute;
-    
-  }
+	@media screen and (max-width: 800px) {
+		margin-top: 60px;
+	}
 `
-
 
 export const Git = styled(Github)`
-  color: white;
-  width: 50px;
-  animation: 5s ${bounceAnimation};
-  &:hover{
-  color: orange;
-}
+	color: white;
+	width: 60px;
+	animation: 5s ${bounceAnimation};
+	&:hover {
+		color: orange;
+	}
 `
 export const Twit = styled(Twitter)`
-  color: white;
-  width: 50px;
-  animation: 5s ${bounceAnimation};
-  &:hover{
-  color: orange;
-}
+	color: white;
+	width: 60px;
+	animation: 5s ${bounceAnimation};
+	&:hover {
+		color: orange;
+	}
 `
 
 export const Linked = styled(LinkedinSquare)`
-  color: white;
-  width: 50px;
-  animation: 5s ${bounceAnimation};
-  &:hover{
-  color: orange;
-}
+	color: white;
+	width: 60px;
+	animation: 5s ${bounceAnimation};
+	&:hover {
+		color: orange;
+	}
 `
 
 export const Google = styled(GoogleDrive)`
-  color: white;
-  width: 50px;
-  animation: 5s ${bounceAnimation};
-  &:hover{
-  color: orange;
-}
+	color: white;
+	width: 60px;
+	animation: 5s ${bounceAnimation};
+	&:hover {
+		color: orange;
+	}
 `
 
+export const Title = styled.h4`
+	font-size: 20px;
+	color: white;
 
-
-
-
-export const Title =styled.h4 `
-font-size: 20px;
-color:white;
-
-justify-content: center;
-margin-top: 80px;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-@media screen and (max-width: 800px) {
-      font-size: 11px;
-      margin-left: 25px;
-     
-    
-  }
+	justify-content: center;
+	margin-top: 80px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+		sans-serif;
+	@media screen and (max-width: 800px) {
+		font-size: 11px;
+		margin-left: 25px;
+	}
 `
 export const Introt = styled.div`
-    font-size: 80px;
-    color: white;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    @media screen and (max-width: 800px) {
-     font-size: 8vw;
-     
-    
-  }
-`;
+	font-size: 80px;
+	margin-top: 30px;
+	color: white;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+		sans-serif;
+	@media screen and (max-width: 800px) {
+		font-size: 20px;
+		margin-top: 20px;
+	}
+`
 export const Introf = styled.div`
-    font-size: 100px;
-    color: white;
-    margin-top: 0px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    @media screen and (max-width: 800px) {
-     font-size: 8vw;
-     margin-top: -20vh;
-     
-    
-  }
-`;
+	font-size: 100px;
+	color: white;
+	margin-top: 30px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+		sans-serif;
+	@media screen and (max-width: 800px) {
+		font-size: 20px;
+		margin-top: 20px;
+	}
+`
 
 export const Introm = styled.div`
-    font-size: 5vw;
-    color: white;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    @media screen and (max-width: 800px) {
-     font-size: 6vw;
-     
-    
-  }
-`;
+	font-size: 5vw;
+	margin-top: 40px;
+	color: white;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+		sans-serif;
+	@media screen and (max-width: 800px) {
+		font-size: 20px;
+		margin-top: 20px;
+	}
+`
