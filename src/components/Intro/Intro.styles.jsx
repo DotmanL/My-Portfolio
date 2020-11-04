@@ -26,7 +26,7 @@ display: flex;
 flex-direction: column;
 position: relative;
 @media screen and (max-width: 800px) {
-        height: 70vh; 
+        height: 100vh; 
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -53,7 +53,7 @@ export const Git = styled(Github)`
 	width: 60px;
 	animation: 5s ${bounceAnimation};
 	&:hover {
-		color: orange;
+		color: #023e8a;
 	}
 `
 export const Twit = styled(Twitter)`
@@ -61,7 +61,7 @@ export const Twit = styled(Twitter)`
 	width: 60px;
 	animation: 5s ${bounceAnimation};
 	&:hover {
-		color: orange;
+		color:  #023e8a;
 	}
 `
 
@@ -70,7 +70,7 @@ export const Linked = styled(LinkedinSquare)`
 	width: 60px;
 	animation: 5s ${bounceAnimation};
 	&:hover {
-		color: orange;
+		color:  #023e8a;
 	}
 `
 
@@ -79,7 +79,7 @@ export const Google = styled(GoogleDrive)`
 	width: 60px;
 	animation: 5s ${bounceAnimation};
 	&:hover {
-		color: orange;
+		color:  #023e8a;
 	}
 `
 
