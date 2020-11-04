@@ -26,6 +26,7 @@ const Navigation = styled.nav`
 	@media (max-width: 800px) {
 		position: sticky;
 		height: 50px;
+		padding: 0 2vw;
 		top: 0;
 		left: 0;
 		right: 0;
@@ -52,6 +53,10 @@ const Logo = styled.p`
 
 	:hover {
 		color: goldenrod;
+	}
+	@media (max-width: 800px) {
+		font-size: 20px;
+		margin-top: 20px;
 	}
 `
 
@@ -109,7 +114,7 @@ const Nav = () => {
 	return (
 		<Navigation>
 			{/* <Logo /> */}
-			<Logo>DOTMANL</Logo>
+			<Logo>Oladotun Lawal</Logo>
 			<Toggle navbarOpen={navbarOpen} onClick={() => setNavbarOpen(!navbarOpen)}>
 				{navbarOpen ? <Hamburger open /> : <Hamburger />}
 			</Toggle>
