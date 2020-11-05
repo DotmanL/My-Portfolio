@@ -24,19 +24,23 @@ export const Container = styled.div`
 export const Header = styled.div`
 	display: flex;
 	flex-direction: column;
+	align-self: flex-start;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 2px solid #023e8a;
+	height: 65px;
+	width: 200px;
+	padding: 0px;
+	margin: 5px 0px 0px 50px;
 
 	@media screen and (max-width: 800px) {
-		align-items: center;
-		margin-left: 0px;
+		margin: 5px 0px 0px 20px;
 	}
 `
 
-export const Title = styled.h1`
-	font-size: 25px;
-	color: #023e8a;
-	margin: 5px 0px 0px 0px;
-	font-style: italic;
-	padding: 5px 15px;
+export const Title = styled.h4`
+	font-size: 35px;
+	color: black;
 	font-family: 'Arvo', serif;
 `
 
@@ -108,7 +112,7 @@ export const Card = styled.div`
 	transition: 0.4s ease-out;
 	position: relative;
 	&:hover {
-		transform: translateY(-2px);
+		transform: translateY(-5px);
 		transition: 0.4s ease-out;
 	}
 

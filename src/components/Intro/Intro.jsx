@@ -34,16 +34,24 @@ const Intro = () => {
 			</Introm>
 
 			<Icons>
-				<a href='https://github.com/dotmanL'>
+				<a href='https://github.com/dotmanL' target='_blank' rel='noopener noreferrer'>
 					<Git />
 				</a>
-				<a href='https://twitter.com/dotman_l'>
+				<a href='https://twitter.com/dotman_l' target='_blank' rel='noopener noreferrer'>
 					<Twit />
 				</a>
-				<a href='https://www.linkedin.com/in/oladotun-lawal-7a6b18138/'>
+				<a
+					href='https://www.linkedin.com/in/oladotun-lawal-7a6b18138/'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
 					<Linked />
 				</a>
-				<a href='https://drive.google.com/open?id=1Ef9kakPMAQwJplzJVhBcbkxDaUl3AZdh'>
+				<a
+					href='https://drive.google.com/open?id=1Ef9kakPMAQwJplzJVhBcbkxDaUl3AZdh'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
 					<Google />
 				</a>
 			</Icons>

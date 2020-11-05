@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import { ReactComponent as css } from './logos/css-3.svg'
 import { ReactComponent as express } from './logos/express.svg'
-
 import { ReactComponent as figma } from './logos/figma.svg'
 import { ReactComponent as firebase } from './logos/firebase.svg'
 import { ReactComponent as gatsby } from './logos/gatsby.svg'
@@ -20,11 +19,10 @@ import { ReactComponent as js } from './logos/javascript.svg'
 
 export const Container = styled.div`
 	width: 100%;
-	/* background: rgb(28,36,97); */
 	background: white;
 	display: flex;
 	flex-direction: column;
-	border-bottom: 1px solid black;
+	/* border-bottom: 1px solid black; */
 	@media screen and (max-width: 800px) {
 	}
 `
@@ -50,7 +48,6 @@ export const Desc = styled.div`
 	flex-direction: row;
 	padding: 10px 20px;
 	border: 2px solid black;
-
 	justify-content: space-between;
 	border-radius: 8px;
 	margin-right: auto;
@@ -71,34 +68,32 @@ export const Tx = styled.h4`
 export const Header = styled.div`
 	display: flex;
 	flex-direction: column;
+	align-self: flex-end;
 	justify-content: center;
+	align-items: center;
+	border-bottom: 2px solid #023e8a;
+	height: 65px;
+	padding: 0px;
+	width: 200px;
+	margin: 5px 150px 0px 0px;
 
 	@media screen and (max-width: 800px) {
-		align-items: center;
-		margin-left: 0px;
+		margin: 5px 20px 0px 0px;
 	}
 `
 
-export const Title = styled.h1`
-	font-size: 25px;
-	color: white;
-	margin-top: 0px;
-	width: 90px;
-	margin-left: 45%;
-	padding: 5px 15px;
+export const Title = styled.h4`
+	font-size: 35px;
+	color: black;
 	font-family: 'Arvo', serif;
-	@media screen and (max-width: 800px) {
-		margin-left: 0%;
-	}
 `
-
 export const Logo = styled.div`
 	display: flex;
-	background: #f1faee;
+	/* background: #f1faee; */
 	flex-direction: row;
 	flex-flow: row wrap;
 	padding: 10px 20px;
-	border: 2px solid black;
+	border: 2px solid #023e8a;
 
 	justify-content: space-between;
 	border-radius: 8px;
@@ -127,14 +122,14 @@ export const Fr = styled.h2`
 
 export const Backend = styled.div`
 	display: flex;
-	background: #f1faee;
+	/* background: #f1faee; */
 	flex-direction: row;
 	flex-flow: row wrap;
 	padding: 10px 20px;
 	justify-content: space-between;
 	margin-left: 20px;
 	width: 25%;
-	border: 2px solid black;
+	border: 2px solid #023e8a;
 	border-radius: 8px;
 	@media screen and (max-width: 800px) {
 		display: flex;
@@ -160,12 +155,10 @@ export const Be = styled.h2`
 
 export const Others = styled.div`
 	display: flex;
-	background: #f1faee;
-
 	flex-direction: row;
 	flex-flow: row wrap;
 	padding: 10px 20px;
-	border: 2px solid black;
+	border: 2px solid #023e8a;
 	justify-content: space-between;
 	margin-left: 20px;
 	width: 25%;

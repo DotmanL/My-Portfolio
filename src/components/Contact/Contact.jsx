@@ -1,12 +1,23 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 
-import { toast } from 'react-toastify';
+import { toast } from 'react-toastify'
 
-import { Container, Title, FormContainer, FormInput, FormInputT, SubTitle, Button, Footer, Footl } from './Contact.styles'
+import {
+	Container,
+	Header,
+	Title,
+	FormContainer,
+	FormInput,
+	FormInputT,
+	SubTitle,
+	Button,
+	Footer,
+	Footl,
+} from './Contact.styles'
 
 const Contact = () => {
-	const [inputs, setInputs] = useState({ email: '', name: '', message: '', subject:'' })
+	const [inputs, setInputs] = useState({ email: '', name: '', message: '', subject: '' })
 
 	const handleChange = (event) => {
 		const { name, value } = event.target
@@ -24,13 +35,12 @@ const Contact = () => {
 			data: {
 				name,
 				email,
-        message,
-        subject
+				message,
+				subject,
 			},
 		})
 			.then((response) => {
-        toast.success('Message Sent')
-     
+				toast.success('Message Sent')
 			})
 			.catch((error) => {
 				toast.error('Contact me directly via mail oladotunlawal7@gmail.com')
@@ -39,54 +49,56 @@ const Contact = () => {
 
 	return (
 		<Container>
-       
-			<Title>Contact</Title>
-      <form onSubmit={handleSubmit}>
-			<FormContainer>
-				<SubTitle> Hire me by filling out this form</SubTitle>
-			
+			<Header>
+				<Title>Contact</Title>
+			</Header>
+			<form onSubmit={handleSubmit}>
+				<FormContainer>
+					<SubTitle> Hire me by filling out this form</SubTitle>
+
 					<FormInput
-						type="text"
-						name="name"
+						type='text'
+						name='name'
 						onChange={handleChange}
 						value={inputs.name}
-						placeholder="Name"
+						placeholder='Name'
 						required
 					/>
 
 					<FormInput
-						type="email"
-						name="email"
+						type='email'
+						name='email'
 						onChange={handleChange}
 						value={inputs.email}
-						placeholder="Email"
+						placeholder='Email'
 						required
 					/>
 
-            <FormInput
-						type="text"
-						name="subject"
+					<FormInput
+						type='text'
+						name='subject'
 						onChange={handleChange}
 						value={inputs.subject}
-						placeholder="Subject"
+						placeholder='Subject'
 						required
 					/>
 
-
 					<FormInputT
-						name="message"
-						type="textarea"
-						placeholder="Message"
+						name='message'
+						type='textarea'
+						placeholder='Message'
 						onChange={handleChange}
 						value={inputs.message}
-						rows="10"
-						cols="30"
+						rows='10'
+						cols='30'
 					/>
 					<Button type='submit'> Submit </Button>
-			
-			</FormContainer>
-      </form>
-			<Footer> Created with React by <Footl href="https://github.com/dotmanL">DotmanL </Footl></Footer>
+				</FormContainer>
+			</form>
+			<Footer>
+				{' '}
+				Created with React by <Footl href='https://github.com/dotmanL'>DotmanL </Footl>
+			</Footer>
 		</Container>
 	)
 }

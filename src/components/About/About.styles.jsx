@@ -11,8 +11,7 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border-top: 0px solid orange;
-	border-bottom: 1px solid black;
+	/* border-bottom: 1px solid black; */
 	padding: 20px 20px;
 	@media screen and (max-width: 800px) {
 		display: flex;
@@ -23,27 +22,31 @@ export const Container = styled.div`
 export const Header = styled.div`
 	display: flex;
 	flex-direction: column;
+	align-self: flex-start;
+	align-items: center;
 	justify-content: center;
+	border-bottom: 2px solid #023e8a;
+	height: 65px;
+	width: 200px;
+	padding: 0px;
+	margin: 5px 0px 0px 50px;
 
 	@media screen and (max-width: 800px) {
-		align-items: center;
-		margin-left: 0px;
+		margin: 5px 0px 0px 10px;
 	}
 `
 
 export const Title = styled.h4`
-	font-size: 25px;
-	color: white;
+	font-size: 35px;
+	color: black;
 	font-family: 'Arvo', serif;
-	margin-top: 10px;
-	padding: 5px 15px;
 `
 
 export const Git = styled(Github)`
-	color: black;
+	color: #023e8a;
 	width: 50px;
 	&:hover {
-		color: white;
+		color: black;
 	}
 `
 
@@ -65,16 +68,20 @@ export const PostContainer = styled.div`
 	display: flex;
 	flex-direction: row;
 	margin-left: 20px;
-	width: 600px;
-	height: 430px;
+	width: 80vw;
 	border-radius: 8px;
 	margin-top: 20px;
-	padding: 20px 20px;
+	padding: 10px 20px;
 	@media screen and (max-width: 800px) {
 		width: 90vw;
 		margin-left: 0px;
 		height: auto;
 	}
+`
+
+export const LinkContainer = styled.a`
+	color: #023e8a;
+	cursor: pointer;
 `
 
 export const Post = styled.p`

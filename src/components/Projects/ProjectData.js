@@ -55,4 +55,24 @@ export const data = [
 		ProjectImage: require('./images/dotdev22.png'),
 		GithubLink: 'https://github.com/DotmanL/Dotdev-Blog',
 	},
+	{
+		id: '5',
+		ProjectName: 'Smart Brain',
+		ProjectDescription:
+			'Smart Brain is a web application that detects faces in pictures which are inputed by pasting an image url. The detection is done with the help of Clarifai API.',
+		TechUsed: ['React', 'Tachyons', 'PostgreSQL', 'NodeJs', 'Express'],
+		ProjectLink: 'https://smart-brain-dot.herokuapp.com/',
+		ProjectImage: require('./images/smart22.png'),
+		GithubLink: 'https://github.com/DotmanL/smart-brain',
+	},
+	{
+		id: '6',
+		ProjectName: 'Robofriends',
+		ProjectDescription:
+			'A react app with the the basic functionality of filtering through the card list of	robots by the use of a search bar component. Built with React Js and Redux was used for the state management',
+		TechUsed: ['React', 'Redux', 'Tachyons'],
+		ProjectLink: 'https://dotmanl.github.io/Robofriendsdot',
+		ProjectImage: require('./images/robo22.png'),
+		GithubLink: 'https://github.com/DotmanL/Robofriendsdot',
+	},
 ]
