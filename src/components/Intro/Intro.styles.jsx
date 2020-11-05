@@ -26,7 +26,7 @@ export const IntroContainer = styled.div`
 	flex-direction: column;
 	position: relative;
 	@media screen and (max-width: 800px) {
-		height: 70vh;
+		height: 100vh;
 		width: 100%;
 		background-size: cover;
 		background-position: center;
