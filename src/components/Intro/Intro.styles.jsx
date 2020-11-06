@@ -28,6 +28,7 @@ export const IntroContainer = styled.div`
 	@media screen and (max-width: 800px) {
 		height: 70vh;
 		width: 100%;
+		margin-top: -50px;
 		background-size: cover;
 		background-position: center;
 	}
@@ -52,11 +53,7 @@ export const Git = styled(Github)`
 	width: 60px;
 	animation: 20s ${bounceAnimation};
 	&:hover {
-<<<<<<< HEAD
 		color: black;
-=======
-		color: #023e8a;
->>>>>>> 4ca8beed7dc74f7911a4dc837f88c65491b66a32
 	}
 `
 export const Twit = styled(Twitter)`
@@ -64,11 +61,7 @@ export const Twit = styled(Twitter)`
 	width: 60px;
 	animation: 20s ${bounceAnimation};
 	&:hover {
-<<<<<<< HEAD
 		color: #1da1f2;
-=======
-		color:  #023e8a;
->>>>>>> 4ca8beed7dc74f7911a4dc837f88c65491b66a32
 	}
 `
 
@@ -77,11 +70,7 @@ export const Linked = styled(LinkedinSquare)`
 	width: 60px;
 	animation: 20s ${bounceAnimation};
 	&:hover {
-<<<<<<< HEAD
 		color: #1da1f2;
-=======
-		color:  #023e8a;
->>>>>>> 4ca8beed7dc74f7911a4dc837f88c65491b66a32
 	}
 `
 
@@ -90,11 +79,7 @@ export const Google = styled(GoogleDrive)`
 	width: 60px;
 	animation: 20s ${bounceAnimation};
 	&:hover {
-<<<<<<< HEAD
 		color: red;
-=======
-		color:  #023e8a;
->>>>>>> 4ca8beed7dc74f7911a4dc837f88c65491b66a32
 	}
 `
 

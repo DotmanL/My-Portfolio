@@ -1,14 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import NavbarLinks from './NavbarLinks'
 import jakspot from './jakspot.jpg'
-//import Logo from "./Logo"
+import './Nav.css'
 
 const Navigation = styled.nav`
 	height: 70px;
 	display: flex;
 	/* background-image: url(${jakspot}); */
-  background: #023e8a;
+  /* background: #023e8a; */
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -65,11 +65,12 @@ const Navbox = styled.div`
 	height: 100%;
 	justify-content: flex-end;
 	/* background-image: url(${jakspot}); */
-  background: #023e8a;
+  
 	color: #f1faee;
 	align-items: center;
 	@media (max-width: 800px) {
 		flex-direction: column;
+		background: #023e8a; 
 		position: fixed;
 		width: 50%;
 		opacity: 0.8;
@@ -109,11 +110,27 @@ const Hamburger = styled.div`
 	}
 `
 const Nav = () => {
+	const [scrolledDownEnough, setScrolledDownEnough] = useState(false)
 	const [navbarOpen, setNavbarOpen] = useState(false)
 
+	useEffect(() => {
+		const handleScroll = () => {
+			const bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop
+
+			const scrolledDownEnough = bodyScrollTop > 30 ? true : false
+			setScrolledDownEnough(scrolledDownEnough)
+		}
+
+		// Nav.handleOnClickOutside = () =>  setNavbarOpen(false)
+		window.addEventListener('scroll', handleScroll, { passive: true })
+
+		return () => window.removeEventListener('scroll', handleScroll)
+	}, [scrolledDownEnough])
+
+	const newNav = scrolledDownEnough ? 'nav-background' : ''
+
 	return (
-		<Navigation>
-			{/* <Logo /> */}
+		<Navigation className={newNav}>
 			<Logo>Oladotun Lawal</Logo>
 			<Toggle navbarOpen={navbarOpen} onClick={() => setNavbarOpen(!navbarOpen)}>
 				{navbarOpen ? <Hamburger open /> : <Hamburger />}

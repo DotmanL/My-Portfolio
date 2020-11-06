@@ -1,21 +1,22 @@
 export const data = [
 	{
 		id: '1',
-		ProjectName: 'Allrange Store',
+		ProjectName: 'Foodtime',
 		ProjectDescription:
-			'An eCommerce app built with React based on the Zero to Mastery Udemy Course: Complete React Developer. This project was really extensive as it covered majority of the React and Redux ecosystem ranging from the usage of hooks to Lazy loading of pages, Compression, Testing using Jest, Progressive Web App Implementation, Usage of Redux Saga etc... I added features such as Contact Page, Restyling of some components, PayStack Integration etc...',
+			'A Food Retailing Web Application that gives food vendors in Lagos State, Nigera the platform to put the various meal online and sell to users who sign up as customers. Various meals can be advertised and put on sale on this platform, payment will be made online or either on delivery to the customers. (Still under Development)',
 		TechUsed: [
-			'Styled Components',
 			'React',
+			'Styled Components',
 			'Redux',
-			'Firebase',
+			'MongoDB',
 			'NodeJS',
 			'Express',
+			'JSON Web Tokens',
 			'Nodemailer',
 		],
-		ProjectImage: require('./images/allrange.png'),
-		ProjectLink: 'https://allrange.herokuapp.com/',
-		GithubLink: 'https://github.com/DotmanL/Allrange-app',
+		ProjectLink: 'https://foodtimee.herokuapp.com/',
+		ProjectImage: require('./images/ft-min.png'),
+		GithubLink: 'https://github.com/DotmanL/Foodtime',
 	},
 	{
 		id: '2',
@@ -38,6 +39,25 @@ export const data = [
 	},
 	{
 		id: '3',
+		ProjectName: 'Allrange Store',
+		ProjectDescription:
+			'An eCommerce app built with React based on the Zero to Mastery Udemy Course: Complete React Developer. This project was really extensive as it covered majority of the React and Redux ecosystem ranging from the usage of hooks to Lazy loading of pages, Compression, Testing using Jest, Progressive Web App Implementation, Usage of Redux Saga etc... I added features such as Contact Page, Restyling of some components, PayStack Integration etc...',
+		TechUsed: [
+			'Styled Components',
+			'React',
+			'Redux',
+			'Firebase',
+			'NodeJS',
+			'Express',
+			'Nodemailer',
+		],
+		ProjectImage: require('./images/allrange.png'),
+		ProjectLink: 'https://allrange.herokuapp.com/',
+		GithubLink: 'https://github.com/DotmanL/Allrange-app',
+	},
+
+	{
+		id: '4',
 		ProjectName: 'Covid19 Status Update',
 		ProjectDescription:
 			'	A Covid19 Status Update App for global cases and cases by country, illustrated with the use of line and bar charts.',
@@ -47,7 +67,7 @@ export const data = [
 		GithubLink: 'https://github.com/DotmanL/Covid19-Status-App',
 	},
 	{
-		id: '4',
+		id: '5',
 		ProjectName: 'DotDev Blog',
 		ProjectDescription: 'My personal blog site created with Gatsby, still under development.',
 		TechUsed: ['GatsbyJs', 'Styled Components'],
@@ -56,7 +76,7 @@ export const data = [
 		GithubLink: 'https://github.com/DotmanL/Dotdev-Blog',
 	},
 	{
-		id: '5',
+		id: '6',
 		ProjectName: 'Smart Brain',
 		ProjectDescription:
 			'Smart Brain is a web application that detects faces in pictures which are inputed by pasting an image url. The detection is done with the help of Clarifai API.',
@@ -66,7 +86,7 @@ export const data = [
 		GithubLink: 'https://github.com/DotmanL/smart-brain',
 	},
 	{
-		id: '6',
+		id: '7',
 		ProjectName: 'Robofriends',
 		ProjectDescription:
 			'A react app with the the basic functionality of filtering through the card list of	robots by the use of a search bar component. Built with React Js and Redux was used for the state management',

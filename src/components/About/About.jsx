@@ -11,7 +11,6 @@ import {
 	Details,
 	Git,
 } from './About.styles'
-//import Fade from 'react-reveal/Fade';
 import ScrollAnimation from 'react-animate-on-scroll'
 
 const About = () => {
@@ -28,7 +27,7 @@ const About = () => {
      </ImgC> */}
 				</ScrollAnimation>
 
-				<ScrollAnimation animateIn='slideInRight' duration={2} delay={3}>
+				<ScrollAnimation animateIn='fadeIn' duration={2} delay={3}>
 					<PostContainer>
 						<Post>
 							"I am self taught web developer who has taken several courses and learnt a lot via

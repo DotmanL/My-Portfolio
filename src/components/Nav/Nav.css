@@ -1,0 +1,10 @@
+.nav-background {
+  background-color: #023e8a;
+  border-bottom: 1.5px solid white;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-background {
+    background-color: #023e8a;
+  }
+}
