@@ -56,6 +56,7 @@ const Logo = styled.p`
 	}
 	@media (max-width: 800px) {
 		font-size: 20px;
+		margin-left: 10px;
 		margin-top: 20px;
 	}
 `
@@ -64,13 +65,11 @@ const Navbox = styled.div`
 	display: flex;
 	height: 100%;
 	justify-content: flex-end;
-	/* background-image: url(${jakspot}); */
-  
 	color: #f1faee;
 	align-items: center;
 	@media (max-width: 800px) {
 		flex-direction: column;
-		background: #023e8a; 
+		background: #023e8a;
 		position: fixed;
 		width: 50%;
 		opacity: 0.8;
@@ -88,6 +87,7 @@ const Hamburger = styled.div`
 	height: 3px;
 	transition: all 0.3s linear;
 	align-self: center;
+	margin-right: -30px;
 	position: relative;
 	transform: ${(props) => (props.open ? 'rotate(-45deg)' : 'inherit')};
 	::before,

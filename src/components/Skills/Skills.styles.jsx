@@ -78,7 +78,7 @@ export const Header = styled.div`
 	margin: 5px 150px 0px 0px;
 
 	@media screen and (max-width: 800px) {
-		margin: 5px 20px 0px 0px;
+		margin: 5px 30px 0px 0px;
 	}
 `
 

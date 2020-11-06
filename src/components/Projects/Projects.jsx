@@ -12,7 +12,7 @@ import {
 	Image,
 	Desc,
 	TechDiv,
-	Theader,
+	// Theader,
 	Icons,
 	Lk,
 	Git,
@@ -33,7 +33,7 @@ const Projects = () => {
 						<Card>
 							<ProjectName>{project.ProjectName}</ProjectName>
 							<Desc>{project.ProjectDescription}</Desc>
-							<Theader>Tech Used</Theader>
+							{/* <Theader>Tech Used</Theader> */}
 							<TechDiv>
 								{project.TechUsed.map((TechUsed, i) => (
 									<Tech key={i}>

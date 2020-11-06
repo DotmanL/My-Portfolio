@@ -15,7 +15,6 @@ export const IntroContainer = styled.div`
 	background-image: url(${hbg});
 	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 	height: 100vh;
-	/* background: #023e8a; */
 	width: 100%;
 	justify-content: center;
 	background-size: cover;
@@ -27,10 +26,8 @@ export const IntroContainer = styled.div`
 	position: relative;
 	@media screen and (max-width: 800px) {
 		height: 100vh;
-		width: 100%;
+		width: 101vw;
 		margin-top: -50px;
-		background-size: cover;
-		background-position: center;
 	}
 `
 
@@ -51,7 +48,7 @@ export const Icons = styled.div`
 export const Git = styled(Github)`
 	color: white;
 	width: 60px;
-	animation: 20s ${bounceAnimation};
+	animation: 30s ${bounceAnimation};
 	&:hover {
 		color: black;
 	}
@@ -59,7 +56,7 @@ export const Git = styled(Github)`
 export const Twit = styled(Twitter)`
 	color: white;
 	width: 60px;
-	animation: 20s ${bounceAnimation};
+	animation: 30s ${bounceAnimation};
 	&:hover {
 		color: #1da1f2;
 	}
@@ -68,7 +65,7 @@ export const Twit = styled(Twitter)`
 export const Linked = styled(LinkedinSquare)`
 	color: white;
 	width: 60px;
-	animation: 20s ${bounceAnimation};
+	animation: 30s ${bounceAnimation};
 	&:hover {
 		color: #1da1f2;
 	}
@@ -77,7 +74,7 @@ export const Linked = styled(LinkedinSquare)`
 export const Google = styled(GoogleDrive)`
 	color: white;
 	width: 60px;
-	animation: 20s ${bounceAnimation};
+	animation: 30s ${bounceAnimation};
 	&:hover {
 		color: red;
 	}
