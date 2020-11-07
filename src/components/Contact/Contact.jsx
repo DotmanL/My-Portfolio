@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 
 import { toast } from 'react-toastify'
+import ButtonSpin from '../ButtonSpin/ButtonSpin'
 
 import {
 	Container,
@@ -18,6 +19,7 @@ import {
 
 const Contact = () => {
 	const [inputs, setInputs] = useState({ email: '', name: '', message: '', subject: '' })
+	const [loading, setLoading] = useState(false)
 
 	const handleChange = (event) => {
 		const { name, value } = event.target
@@ -26,6 +28,7 @@ const Contact = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault()
+		setLoading(true)
 		setInputs({ email: '', name: '', message: '', subject: '' })
 
 		const { email, name, message, subject } = inputs
@@ -41,9 +44,12 @@ const Contact = () => {
 		})
 			.then((res) => {
 				toast.success('Message Sent')
+				setLoading(false)
 			})
 			.catch((error) => {
-				toast.error('Contact me directly via mail oladotunlawal7@gmail.com')
+				toast.error('Contact me directly via mail oladotunlawal7@gmail.com', {
+					autoClose: 8000,
+				})
 			})
 	}
 
@@ -92,11 +98,24 @@ const Contact = () => {
 						rows='10'
 						cols='30'
 					/>
-					<Button type='submit'> Submit </Button>
+					<Button type='submit'>
+						{!loading && <span>Submit</span>}
+						{loading && (
+							<span
+								style={{
+									display: 'flex',
+									flexDirection: 'row',
+									justifyContent: 'center',
+									alignItems: 'center',
+								}}
+							>
+								Submitting <ButtonSpin />
+							</span>
+						)}
+					</Button>
 				</FormContainer>
 			</form>
 			<Footer>
-				{' '}
 				Created with React by <Footl href='https://github.com/dotmanL'>DotmanL </Footl>
 			</Footer>
 		</Container>

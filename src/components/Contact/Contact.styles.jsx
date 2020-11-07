@@ -162,6 +162,11 @@ export const Button = styled.button`
 		-webkit-transform: translateX(4px);
 		transform: translateX(4px);
 	}
+	@media screen and (max-width: 800px) {
+		padding: 5px 5px;
+		margin: 20px auto;
+		font-size: 18px;
+	}
 `
 
 export const Footer = styled.h4`
