@@ -39,7 +39,7 @@ const Contact = () => {
 				subject,
 			},
 		})
-			.then((response) => {
+			.then((res) => {
 				toast.success('Message Sent')
 			})
 			.catch((error) => {

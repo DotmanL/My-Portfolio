@@ -3,7 +3,7 @@ export const data = [
 		id: '1',
 		ProjectName: 'Foodtime',
 		ProjectDescription:
-			'A Food Retailing Web Application that gives food vendors in Lagos State, Nigera the platform to put the various meal online and sell to users who sign up as customers. Various meals can be advertised and put on sale on this platform, payment will be made online or either on delivery to the customers. (Still under Development)',
+			'A Food Retailing Web Application that gives food vendors in Lagos State, Nigera the platform to put the various meals online and sell to users who sign up as customers. Various meals can be advertised and put on sale on this platform, payment will be made online or either on delivery to the customers. (Still under Development)',
 		TechUsed: [
 			'React',
 			'Styled Components',
@@ -41,7 +41,7 @@ export const data = [
 		id: '3',
 		ProjectName: 'Allrange Store',
 		ProjectDescription:
-			'An eCommerce app built with React based on the Zero to Mastery Udemy Course: Complete React Developer. This project was really extensive as it covered majority of the React and Redux ecosystem ranging from the usage of hooks to Lazy loading of pages, Compression, Testing using Jest, Progressive Web App Implementation, Usage of Redux Saga etc... I added features such as Contact Page, Restyling of some components, PayStack Integration etc...',
+			'An eCommerce app built with React based on the Zero to Mastery Udemy Course: Complete React Developer. This project was really extensive as it covered majority of the React and Redux ecosystem ranging from the usage of hooks to Lazy loading of pages, Compression, Testing using Enzyme, Progressive Web App Implementation, Usage of Redux Saga etc... I added features such as Contact Page, Restyling of some components, PayStack Integration etc...',
 		TechUsed: [
 			'Styled Components',
 			'React',
