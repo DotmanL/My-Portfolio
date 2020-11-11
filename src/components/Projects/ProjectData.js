@@ -16,7 +16,7 @@ export const data = [
 		],
 		ProjectLink: 'https://foodtimee.herokuapp.com/',
 		ProjectImage: require('./images/ft-min.png'),
-		GithubLink: 'https://github.com/DotmanL/Foodtime',
+		GithubLink: 'https://github.com/DotmanL/FoodtimeApp',
 	},
 	{
 		id: '2',
