@@ -22,7 +22,7 @@ export const data = [
 		id: '2',
 		ProjectName: 'Devmeet App',
 		ProjectDescription:
-			'A social media app for developers, this app was built based on the Brad Traversy MERN Stack Course project, more features such as email verification, password reset, login with Google, infinite scrolling, image upload functionality, full UI built with styled components, (also replicated Twitter Home Page), etc.. Many more feature still being added.',
+			'A social media app for developers, this app was built based on the Brad Traversy MERN Stack Course project, more features such as email verification, password reset, login with Google, infinite scrolling, image upload functionality, full UI built with styled components, (also replicated Twitter Home Page), etc.. Many more features still being added.',
 		TechUsed: [
 			'Styled Components',
 			'React',
