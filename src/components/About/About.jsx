@@ -30,7 +30,7 @@ const About = () => {
 				<ScrollAnimation animateIn='fadeIn' duration={2} delay={3}>
 					<PostContainer>
 						<Post>
-							"I am self taught web developer who has taken several courses and learnt a lot via
+							"I am a self taught web developer who has taken several courses and learnt a lot via
 							tons of tutorials from several online resources most especially from{' '}
 							<LinkContainer href='https://udemy.com' target='_blank' rel='noopener noreferrer'>
 								Udemy
