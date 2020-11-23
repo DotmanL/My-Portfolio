@@ -48,7 +48,7 @@ const Intro = () => {
 					<Linked />
 				</a>
 				<a
-					href='https://drive.google.com/file/d/17iCrMkCPlMQ95VyElwS5h1qqaOn1wFoI/view?usp=sharing'
+					href='https://drive.google.com/file/d/1X-5aqPXFPuJ5UeUNbK5ocvBdA_IGf4Yz/view?usp=sharing'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
