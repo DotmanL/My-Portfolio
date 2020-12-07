@@ -71,12 +71,13 @@ const Navbox = styled.div`
 		flex-direction: column;
 		background: #023e8a;
 		position: fixed;
-		width: 50%;
-		opacity: 0.8;
+		opacity: 0.9;
+		width: 100%;
+		z-index: 20;
 		justify-content: flex-start;
 		padding-top: 10vh;
 		transition: all 0.3s ease-in;
-		top: 8vh;
+		top: 0vh;
 		right: ${(props) => (props.open ? '-100%' : '0')};
 	}
 `
@@ -89,6 +90,7 @@ const Hamburger = styled.div`
 	align-self: center;
 	margin-right: -30px;
 	position: relative;
+	z-index: 90;
 	transform: ${(props) => (props.open ? 'rotate(-45deg)' : 'inherit')};
 	::before,
 	::after {

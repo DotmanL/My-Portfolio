@@ -60,7 +60,7 @@ const Contact = () => {
 			</Header>
 			<form onSubmit={handleSubmit}>
 				<FormContainer>
-					<SubTitle> Hire me by filling out this form</SubTitle>
+					<SubTitle> Contact me by filling out this form</SubTitle>
 
 					<FormInput
 						type='text'
