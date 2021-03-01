@@ -28,17 +28,18 @@ export const Container = styled.div`
 `
 export const SubContainer = styled.div`
 	width: 100%;
-	/* background: rgb(28, 36, 97); */
-	background: white;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-between;
 	margin-bottom: 15px;
 	margin-top: 30px;
+	padding: 20px 70px;
 	cursor: pointer;
 	@media screen and (max-width: 800px) {
 		display: flex;
 		flex-direction: column;
+		justify-content: space-around;
+		padding: 0px;
 		width: 100vw;
 	}
 `
@@ -87,14 +88,12 @@ export const Title = styled.h4`
 	color: black;
 	font-family: 'Arvo', serif;
 `
-export const Logo = styled.div`
+export const Card = styled.div`
 	display: flex;
-	/* background: #f1faee; */
 	flex-direction: row;
 	flex-flow: row wrap;
-	padding: 10px 20px;
+	padding: 20px 20px;
 	border: 2px solid #023e8a;
-
 	justify-content: space-between;
 	border-radius: 8px;
 	width: 25%;
@@ -108,7 +107,7 @@ export const Logo = styled.div`
 export const Fr = styled.h2`
 	color: black;
 	border-radius: 8px;
-	padding: 5px 5px;
+	padding: 2px 2px;
 	text-align: center;
 	width: 85vw;
 	:hover {
@@ -117,26 +116,6 @@ export const Fr = styled.h2`
 		cursor: pointer;
 	}
 	@media screen and (max-width: 800px) {
-	}
-`
-
-export const Backend = styled.div`
-	display: flex;
-	/* background: #f1faee; */
-	flex-direction: row;
-	flex-flow: row wrap;
-	padding: 10px 20px;
-	justify-content: space-between;
-	margin-left: 20px;
-	width: 25%;
-	border: 2px solid #023e8a;
-	border-radius: 8px;
-	@media screen and (max-width: 800px) {
-		display: flex;
-		margin-left: 7.5vw;
-		width: 85vw;
-		height: auto;
-		margin-top: 10px;
 	}
 `
 
@@ -153,32 +132,11 @@ export const Be = styled.h2`
 	}
 `
 
-export const Others = styled.div`
-	display: flex;
-	flex-direction: row;
-	flex-flow: row wrap;
-	padding: 10px 20px;
-	border: 2px solid #023e8a;
-	justify-content: space-between;
-	margin-left: 20px;
-	width: 25%;
-	border-radius: 8px;
-
-	@media screen and (max-width: 800px) {
-		display: flex;
-		margin-left: 7.5vw;
-		width: 85vw;
-		height: auto;
-		margin-top: 10px;
-	}
-`
-
 export const Ot = styled.h2`
 	color: black;
 	border-radius: 8px;
-	height: 50px;
+	padding: 2px 2px;
 	text-align: center;
-	font-size: 15px;
 	width: 85vw;
 	:hover {
 		border-bottom: 2px solid black;
