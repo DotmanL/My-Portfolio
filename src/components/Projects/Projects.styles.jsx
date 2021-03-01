@@ -70,8 +70,8 @@ export const CardContent = styled.div`
 
 export const Image = styled.img`
 	display: flex;
-	width: auto;
-	height: 400px;
+	width: 500px;
+	height: 300px;
 	border-radius: 5px;
 	margin: 0px 10px 0px 0px;
 	box-shadow: 2px 1px 2px 2px #023e8a;
