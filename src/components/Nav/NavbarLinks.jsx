@@ -8,6 +8,7 @@ const NavItem = styled.a`
 	display: inline-block;
 	white-space: nowrap;
 	margin: 0 1vw;
+	font-weight: 700;
 	transition: all 200ms ease-in;
 	cursor: pointer;
 	position: relative;

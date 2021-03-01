@@ -26,8 +26,8 @@ export const IntroContainer = styled.div`
 	position: relative;
 	@media screen and (max-width: 800px) {
 		height: 100vh;
-		width: 101vw;
-		margin-top: -50px;
+		width: 102%;
+		margin-top: -60px;
 	}
 `
 

@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import NavbarLinks from './NavbarLinks'
-import jakspot from './jakspot.jpg'
 import './Nav.css'
 
 const Navigation = styled.nav`
 	height: 70px;
 	display: flex;
-	/* background-image: url(${jakspot}); */
-  /* background: #023e8a; */
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -24,12 +21,9 @@ const Navigation = styled.nav`
 	z-index: 2;
 	align-self: center;
 	@media (max-width: 800px) {
-		position: sticky;
-		height: 50px;
-		padding: 0 2vw;
+		height: 60px;
+		padding: 0 0vw;
 		top: 0;
-		left: 0;
-		right: 0;
 		left: 0;
 	}
 `

@@ -99,9 +99,11 @@ export const Card = styled.div`
 	width: 25%;
 	@media screen and (max-width: 800px) {
 		display: flex;
-		margin-left: 7.5vw;
+		margin-right: auto;
+		margin-left: auto;
 		width: 85vw;
 		height: auto;
+		padding: 30px 30px;
 	}
 `
 export const Fr = styled.h2`
