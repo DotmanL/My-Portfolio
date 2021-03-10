@@ -100,7 +100,7 @@ export const data = [
 		ProjectDescription: 'My personal blog site created with Gatsby, still under development.',
 		TechUsed: ['GatsbyJs', 'Styled Components'],
 		ProjectLink: 'https://dotdevblog.netlify.app/',
-		ProjectImage: require('./images/dotdev22.png'),
+		ProjectImage: require('./images/dot_blog.png'),
 		GithubLink: 'https://github.com/DotmanL/Dotdev-Blog',
 	},
 	{
