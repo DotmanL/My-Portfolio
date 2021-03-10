@@ -92,11 +92,11 @@ export const Card = styled.div`
 	display: flex;
 	flex-direction: row;
 	flex-flow: row wrap;
-	padding: 20px 20px;
+	padding: 10px 20px;
 	border: 2px solid #023e8a;
 	justify-content: space-between;
 	border-radius: 8px;
-	width: 25%;
+	width: 28%;
 	@media screen and (max-width: 800px) {
 		display: flex;
 		margin-right: auto;
@@ -105,45 +105,25 @@ export const Card = styled.div`
 		height: auto;
 		padding: 30px 30px;
 	}
+
+	:hover {
+		cursor: pointer;
+		transform: scale(1.04);
+		transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+	}
 `
-export const Fr = styled.h2`
+export const STitle = styled.h2`
 	color: black;
 	border-radius: 8px;
 	padding: 2px 2px;
 	text-align: center;
 	width: 85vw;
-	:hover {
+	/* :hover {
 		border-bottom: 2px solid black;
 
 		cursor: pointer;
-	}
+	} */
 	@media screen and (max-width: 800px) {
-	}
-`
-
-export const Be = styled.h2`
-	color: black;
-	border-radius: 8px;
-	padding: 5px 5px;
-	text-align: center;
-	width: 85vw;
-	:hover {
-		border-bottom: 2px solid black;
-
-		cursor: pointer;
-	}
-`
-
-export const Ot = styled.h2`
-	color: black;
-	border-radius: 8px;
-	padding: 2px 2px;
-	text-align: center;
-	width: 85vw;
-	:hover {
-		border-bottom: 2px solid black;
-
-		cursor: pointer;
 	}
 `
 

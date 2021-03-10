@@ -34,13 +34,6 @@ const Projects = () => {
 							<ProjectName>{project.ProjectName}</ProjectName>
 							<Desc>{project.ProjectDescription}</Desc>
 							{/* <Theader>Tech Used</Theader> */}
-							<TechDiv>
-								{project.TechUsed.map((TechUsed, i) => (
-									<Tech key={i}>
-										<Tu> {TechUsed}</Tu>
-									</Tech>
-								))}
-							</TechDiv>
 							<Icons>
 								<a href={project.ProjectLink} target='_blank' rel='noopener noreferrer'>
 									<Lk />
@@ -49,6 +42,13 @@ const Projects = () => {
 									<Git />
 								</a>
 							</Icons>
+							<TechDiv>
+								{project.TechUsed.map((TechUsed, i) => (
+									<Tech key={i}>
+										<Tu> {TechUsed}</Tu>
+									</Tech>
+								))}
+							</TechDiv>
 						</Card>
 					</CardContent>
 				))}

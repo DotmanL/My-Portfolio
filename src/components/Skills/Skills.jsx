@@ -22,9 +22,7 @@ import {
 	Heroku,
 	Netlify,
 	Html,
-	Fr,
-	Be,
-	Ot,
+	STitle,
 } from './Skills.styles'
 import ScrollAnimation from 'react-animate-on-scroll'
 const Skills = () => {
@@ -36,7 +34,7 @@ const Skills = () => {
 			<ScrollAnimation animateIn='fadeIn' duration={2} delay={2}>
 				<SubContainer>
 					<Card>
-						<Fr> Front-End </Fr>
+						<STitle> Front-End </STitle>
 						<Html title='Html' />
 						<Css title='Css' />
 						<Jscript title='Javascript' />
@@ -46,7 +44,7 @@ const Skills = () => {
 					</Card>
 
 					<Card>
-						<Be>Backend and Databases</Be>
+						<STitle>Backend and Databases</STitle>
 						<Nodejs title='Node JS' />
 						<Express title='Express' />
 						<MongoDb title='MongoDB' />
@@ -55,7 +53,7 @@ const Skills = () => {
 					</Card>
 
 					<Card>
-						<Ot>Source Control and Hosting Services</Ot>
+						<STitle>Source Control and Hosting Services</STitle>
 						{/* <Invision title='Invision' /> */}
 						{/* <Figma title='Figma' /> */}
 						<Git title='Git' />

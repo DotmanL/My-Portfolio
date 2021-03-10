@@ -186,7 +186,7 @@ export const TechDiv = styled.div`
 	justify-content: center;
 	flex-flow: row wrap;
 	width: 100%;
-	margin: 20px 4px 5px 4px;
+	margin: 5px 4px 5px 4px;
 `
 
 export const Tech = styled.div`
