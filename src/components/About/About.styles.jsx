@@ -68,10 +68,10 @@ export const PostContainer = styled.div`
 	display: flex;
 	flex-direction: row;
 	margin-left: 20px;
-	width: 80vw;
+	width: 70vw;
 	border-radius: 8px;
 	margin-top: 20px;
-	padding: 10px 20px;
+	padding: 20px 20px;
 	@media screen and (max-width: 800px) {
 		width: 90vw;
 		margin-left: 0px;
