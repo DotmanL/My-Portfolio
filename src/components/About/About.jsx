@@ -31,15 +31,15 @@ const About = () => {
 					<PostContainer>
 						<Post>
 							"I am a self taught web developer who has taken several courses and learnt a lot via
-							tons of tutorials from several online resources most especially from{' '}
+							tons of tutorials from online resources most especially from{' '}
 							<LinkContainer href='https://udemy.com' target='_blank' rel='noopener noreferrer'>
 								Udemy
 							</LinkContainer>{' '}
-							and from several{' '}
+							and {' '}
 							<LinkContainer href='https://medium.co' target='_blank' rel='noopener noreferrer'>
 								Medium
 							</LinkContainer>{' '}
-							posts. This continuous learning process has equipped me with the knowledge which are
+							articles. This continuous learning process has equipped me with the knowledge which are
 							up-to-date with current best practices. I have acquired skills that has enabled me to
 							build amazing web applications that are fully responsive, writing codes that are
 							easily readable for future team developments and scalability of my projects. Here is
