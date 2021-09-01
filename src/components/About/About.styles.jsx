@@ -27,7 +27,7 @@ export const Header = styled.div`
 	justify-content: center;
 	border-bottom: 2px solid #023e8a;
 	height: 65px;
-	width: 200px;
+	width: 150px;
 	padding: 0px;
 	margin: 5px 0px 0px 50px;
 
@@ -37,7 +37,7 @@ export const Header = styled.div`
 `
 
 export const Title = styled.h4`
-	font-size: 35px;
+	font-size: 30px;
 	color: black;
 	font-family: 'Arvo', serif;
 `
@@ -64,7 +64,7 @@ export const Details = styled.div`
 
 export const PostContainer = styled.div`
 	background: whitesmoke;
-	border: 2px solid white;
+	border: 2px solid #023e8a;
 	display: flex;
 	flex-direction: row;
 	margin-left: 20px;
@@ -85,7 +85,7 @@ export const LinkContainer = styled.a`
 `
 
 export const Post = styled.p`
-	font-size: 20px;
+	font-size: 24px;
 	color: black;
 	font-style: italic;
 	text-align: center;

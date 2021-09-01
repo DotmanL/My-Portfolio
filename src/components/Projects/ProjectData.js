@@ -113,14 +113,14 @@ export const data = [
 		ProjectImage: require('./images/smart22.png'),
 		GithubLink: 'https://github.com/DotmanL/smart-brain',
 	},
-	{
-		id: '8',
-		ProjectName: 'Robofriends',
-		ProjectDescription:
-			'A react app with the the basic functionality of filtering through the card list of	robots by the use of a search bar component. Built with React Js and Redux was used for the state management',
-		TechUsed: ['React', 'Redux', 'Tachyons'],
-		ProjectLink: 'https://dotmanl.github.io/Robofriendsdot',
-		ProjectImage: require('./images/robo22.png'),
-		GithubLink: 'https://github.com/DotmanL/Robofriendsdot',
-	},
+	// {
+	// 	id: '8',
+	// 	ProjectName: 'Robofriends',
+	// 	ProjectDescription:
+	// 		'A react app with the the basic functionality of filtering through the card list of	robots by the use of a search bar component. Built with React Js and Redux was used for the state management',
+	// 	TechUsed: ['React', 'Redux', 'Tachyons'],
+	// 	ProjectLink: 'https://dotmanl.github.io/Robofriendsdot',
+	// 	ProjectImage: require('./images/robo22.png'),
+	// 	GithubLink: 'https://github.com/DotmanL/Robofriendsdot',
+	// },
 ]

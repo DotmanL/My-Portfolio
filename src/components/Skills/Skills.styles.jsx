@@ -16,10 +16,12 @@ import { ReactComponent as redux } from './logos/redux.svg'
 import { ReactComponent as netlify } from './logos/netlify.svg'
 import { ReactComponent as heroku } from './logos/heroku.svg'
 import { ReactComponent as js } from './logos/javascript.svg'
+import Bckg from './jakspot.jpg'
 
 export const Container = styled.div`
 	width: 100%;
-	background: white;
+	background: #023e8a;
+	/* background-image: url(${Bckg}); */
 	display: flex;
 	flex-direction: column;
 	/* border-bottom: 1px solid black; */
@@ -85,7 +87,7 @@ export const Header = styled.div`
 
 export const Title = styled.h4`
 	font-size: 35px;
-	color: black;
+	color: white;
 	font-family: 'Arvo', serif;
 `
 export const Card = styled.div`
@@ -93,7 +95,7 @@ export const Card = styled.div`
 	flex-direction: row;
 	flex-flow: row wrap;
 	padding: 10px 20px;
-	border: 2px solid #023e8a;
+	border: 2px solid white;
 	justify-content: space-between;
 	border-radius: 8px;
 	width: 28%;
@@ -113,7 +115,7 @@ export const Card = styled.div`
 	}
 `
 export const STitle = styled.h2`
-	color: black;
+	color: white;
 	border-radius: 8px;
 	padding: 2px 2px;
 	text-align: center;

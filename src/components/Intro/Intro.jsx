@@ -17,18 +17,18 @@ const Intro = () => {
 	return (
 		<IntroContainer>
 			<Introf>
-				<Typed strings={['Hi, I am']} typeSpeed={40} />
+				<Typed showCursor={false} strings={['Hi, I am']} typeSpeed={40} />
 			</Introf>
 
 			<Introt>
-				<Typed strings={['Lawal Oladotun']} typeSpeed={40} />
+				<Typed showCursor={false} strings={['Lawal Oladotun']} typeSpeed={40} />
 			</Introt>
 
 			<Introm>
 				<Typed
 					strings={['FullStack Developer (MERN Stack)']}
 					typeSpeed={90}
-					backSpeed={50}
+					backSpeed={90}
 					loop
 				></Typed>
 			</Introm>

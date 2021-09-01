@@ -5,7 +5,7 @@ import { Twitter } from '@styled-icons/entypo-social/Twitter'
 
 import { LinkedinSquare } from '@styled-icons/boxicons-logos/LinkedinSquare'
 import { GoogleDrive } from '@styled-icons/fa-brands/GoogleDrive'
-import hbg from './assets/hbg.jpg'
+import hbg from './assets/bgnew.jpg'
 
 import { wobble } from 'react-animations'
 
@@ -13,7 +13,7 @@ const bounceAnimation = keyframes`${wobble}`
 
 export const IntroContainer = styled.div`
 	background-image: url(${hbg});
-	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+	box-shadow: inset 0 0 0 2000px rgba(29, 161, 242, 0.1);
 	height: 100vh;
 	width: 100%;
 	justify-content: center;

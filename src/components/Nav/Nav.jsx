@@ -6,6 +6,7 @@ import './Nav.css'
 const Navigation = styled.nav`
 	height: 70px;
 	display: flex;
+	flex-direction: row;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -16,13 +17,14 @@ const Navigation = styled.nav`
 	text-transform: uppercase;
 	/* border-bottom: 1px solid white; */
 	margin: 0 auto;
-	padding: 0 5vw;
+	padding: 0 30px;
 	margin-bottom: -5px;
 	z-index: 2;
 	align-self: center;
 	@media (max-width: 800px) {
 		height: 60px;
-		padding: 0 0vw;
+		position: sticky;
+		padding: 0px 10px;
 		top: 0;
 		left: 0;
 	}
@@ -41,7 +43,8 @@ const Logo = styled.p`
 	color: white;
 	font-size: 25px;
 	margin-top: 29px;
-	font-family: 'Niconne', cursive;
+	/* font-family: 'Niconne', cursive; */
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	cursor: pointer;
 
