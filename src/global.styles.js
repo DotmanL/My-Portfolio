@@ -6,7 +6,6 @@ body {
     font-family: "Open Sans Condensed";
     padding: 0px;
     margin: 0 auto;
-     background: red;
 
 
     @media screen and ( max-width: 800px) {
