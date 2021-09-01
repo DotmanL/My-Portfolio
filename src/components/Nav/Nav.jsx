@@ -23,11 +23,9 @@ const Navigation = styled.nav`
 	align-self: center;
 	@media (max-width: 800px) {
 		height: 60px;
-		position: sticky;
-		z-index: 29;
+		position: fixed;
+		z-index: 39;
 		padding: 0px 10px;
-		top: 0;
-		left: 0;
 	}
 `
 
