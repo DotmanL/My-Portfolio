@@ -18,14 +18,16 @@ const Navigation = styled.nav`
 	/* border-bottom: 1px solid white; */
 	margin: 0 auto;
 	padding: 0 30px;
-	margin-bottom: -5px;
 	z-index: 19;
 	align-self: center;
 	@media (max-width: 800px) {
 		height: 60px;
-		position: fixed;
 		z-index: 39;
 		padding: 0px 10px;
+		top: 0;
+		left: 0;
+		right: 0;
+		left: 0;
 	}
 `
 
