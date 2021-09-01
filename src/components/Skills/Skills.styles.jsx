@@ -92,10 +92,11 @@ export const Title = styled.h4`
 `
 export const Card = styled.div`
 	display: flex;
+	background: white;
 	flex-direction: row;
 	flex-flow: row wrap;
 	padding: 10px 20px;
-	border: 2px solid white;
+	border: 2px solid #023e8a;
 	justify-content: space-between;
 	border-radius: 8px;
 	width: 28%;
@@ -115,7 +116,7 @@ export const Card = styled.div`
 	}
 `
 export const STitle = styled.h2`
-	color: white;
+	color: black;
 	border-radius: 8px;
 	padding: 2px 2px;
 	text-align: center;
