@@ -19,11 +19,12 @@ const Navigation = styled.nav`
 	margin: 0 auto;
 	padding: 0 30px;
 	margin-bottom: -5px;
-	z-index: 2;
+	z-index: 19;
 	align-self: center;
 	@media (max-width: 800px) {
 		height: 60px;
 		position: sticky;
+		z-index: 29;
 		padding: 0px 10px;
 		top: 0;
 		left: 0;
