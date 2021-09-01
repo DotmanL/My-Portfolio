@@ -22,8 +22,10 @@ export const IntroContainer = styled.div`
 	align-items: center;
 	display: flex;
 	flex-direction: column;
+	margin: 0px auto;
 	@media screen and (max-width: 800px) {
 		height: 100vh;
+		overflow-x: hidden;
 		margin-top: -80px;
 	}
 `

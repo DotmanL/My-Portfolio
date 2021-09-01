@@ -19,7 +19,6 @@ const Navigation = styled.nav`
 	z-index: 19;
 	@media (max-width: 800px) {
 		height: 70px;
-		width: 100%;
 		padding: 5px 20px 5px 20px;
 		z-index: 999;
 	}

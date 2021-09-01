@@ -52,19 +52,18 @@ export const Main = styled.div`
 `
 
 export const CardContent = styled.div`
-	/* width: 100%; */
 	height: auto;
 	display: flex;
 	flex-direction: row;
-	/* flex-flow: row wrap; */
 	padding: 20px 60px;
 	justify-content: center;
 
 	@media screen and (max-width: 800px) {
 		display: flex;
-		padding: 25px;
+		background: 'orange';
 		flex-direction: column;
-		align-items: center;
+		padding: 0px 0px;
+		margin: 15px 0px;
 	}
 `
 
