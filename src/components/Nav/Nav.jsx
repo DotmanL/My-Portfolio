@@ -11,31 +11,23 @@ const Navigation = styled.nav`
 	top: 0;
 	left: 0;
 	right: 0;
-	left: 0;
 	justify-content: space-between;
 	align-items: center;
 	text-transform: uppercase;
-	/* border-bottom: 1px solid white; */
-	margin: 0 auto;
 	padding: 0 30px;
+	margin: 0px;
 	z-index: 19;
-	align-self: center;
 	@media (max-width: 800px) {
-		height: 60px;
-		z-index: 39;
-		padding: 0px 10px;
-		top: 0;
-		left: 0;
-		right: 0;
-		left: 0;
+		height: 70px;
+		width: 100%;
+		padding: 5px 20px 5px 20px;
+		z-index: 999;
 	}
 `
 
 const Toggle = styled.div`
 	display: none;
-	height: 100%;
 	cursor: pointer;
-	padding: 0 10vw;
 	@media (max-width: 800px) {
 		display: flex;
 	}
@@ -54,7 +46,6 @@ const Logo = styled.p`
 	}
 	@media (max-width: 800px) {
 		font-size: 20px;
-		margin-left: 10px;
 		margin-top: 20px;
 	}
 `
@@ -86,7 +77,6 @@ const Hamburger = styled.div`
 	height: 3px;
 	transition: all 0.3s linear;
 	align-self: center;
-	margin-right: -30px;
 	position: relative;
 	z-index: 90;
 	transform: ${(props) => (props.open ? 'rotate(-45deg)' : 'inherit')};

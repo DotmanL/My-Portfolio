@@ -15,7 +15,6 @@ export const IntroContainer = styled.div`
 	background-image: url(${hbg});
 	box-shadow: inset 0 0 0 2000px rgba(29, 161, 242, 0.1);
 	height: 100vh;
-	width: 100%;
 	justify-content: center;
 	background-size: cover;
 	background-position: center;
@@ -23,11 +22,9 @@ export const IntroContainer = styled.div`
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	position: relative;
 	@media screen and (max-width: 800px) {
 		height: 100vh;
-		width: 102%;
-		margin-top: -60px;
+		margin-top: -80px;
 	}
 `
 

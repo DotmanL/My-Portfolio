@@ -21,7 +21,6 @@ const App = () => {
 			<GlobalStyle />
 			<ToastContainer style={styles} closeOnClick transition={Zoom} />
 			<Nav />
-
 			<Intro />
 			<About />
 			<Skills />
