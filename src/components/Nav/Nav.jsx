@@ -39,6 +39,7 @@ const Logo = styled.p`
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	cursor: pointer;
+	margin-left: 40px;
 
 	:hover {
 		color: goldenrod;
@@ -46,6 +47,7 @@ const Logo = styled.p`
 	@media (max-width: 800px) {
 		font-size: 20px;
 		margin-top: 20px;
+		margin-left: 5px;
 	}
 `
 

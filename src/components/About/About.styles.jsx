@@ -11,7 +11,7 @@ export const Container = styled.div`
 	flex-direction: column;
 	align-items: center;
 	/* border-bottom: 1px solid black; */
-	padding: 20px 20px;
+	padding: 15px 10px;
 	@media screen and (max-width: 800px) {
 		display: flex;
 		flex-direction: column;
@@ -24,20 +24,19 @@ export const Header = styled.div`
 	align-self: flex-start;
 	align-items: center;
 	justify-content: center;
-	border-bottom: 2px solid #023e8a;
+	/* border-bottom: 2px solid #023e8a; */
 	height: 65px;
-	width: 150px;
-	padding: 0px;
-	margin: 5px 0px 0px 50px;
+	width: 200px;
+	margin: 5px 0px 0px 40px;
 
-	@media screen and (max-width: 800px) {
-		margin: 5px 0px 0px 10px;
-	}
+@media screen and (max-width: 800px) {
+	margin: 5px 5px 0px 0px;
+}
 `
 
 export const Title = styled.h4`
 	font-size: 30px;
-	color: black;
+	color: #023e8a;
 	font-family: 'Arvo', serif;
 `
 

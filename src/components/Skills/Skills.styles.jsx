@@ -32,7 +32,7 @@ export const SubContainer = styled.div`
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin-bottom: 15px;
 	margin-top: 30px;
 	padding: 20px 70px;
@@ -45,43 +45,21 @@ export const SubContainer = styled.div`
 		width: 100vw;
 	}
 `
-export const Desc = styled.div`
-	display: flex;
-	background: white;
-	flex-direction: row;
-	padding: 10px 20px;
-	border: 2px solid black;
-	justify-content: space-between;
-	border-radius: 8px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 70%;
-
-	@media screen and (max-width: 800px) {
-		display: flex;
-		margin-left: 7.5vw;
-		width: 85vw;
-		height: auto;
-	}
-`
-export const Tx = styled.h4`
-	color: red;
-`
 
 export const Header = styled.div`
 	display: flex;
 	flex-direction: column;
-	align-self: flex-end;
+	align-self: flex-start;
 	justify-content: center;
 	align-items: center;
 	border-bottom: 2px solid #023e8a;
 	height: 65px;
 	padding: 0px;
 	width: 200px;
-	margin: 5px 150px 0px 0px;
+	margin: 5px 0px 0px 40px;
 
 	@media screen and (max-width: 800px) {
-		margin: 5px 30px 0px 0px;
+		margin: 5px 5px 0px 0px;
 	}
 `
 
@@ -95,18 +73,18 @@ export const Card = styled.div`
 	background: white;
 	flex-direction: row;
 	flex-flow: row wrap;
-	padding: 10px 20px;
+	padding: 5px 20px;
 	border: 2px solid #023e8a;
-	justify-content: space-between;
+	justify-content: space-around;
 	border-radius: 8px;
-	width: 28%;
+	width: 25%;
 	@media screen and (max-width: 800px) {
 		display: flex;
 		margin-right: auto;
 		margin-left: auto;
 		width: 85vw;
 		height: auto;
-		padding: 30px 30px;
+		padding: 10px 10px;
 	}
 
 	:hover {

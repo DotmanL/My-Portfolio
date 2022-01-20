@@ -16,17 +16,17 @@ export const Container = styled.div`
 export const Header = styled.div`
 	display: flex;
 	flex-direction: column;
-	align-self: flex-end;
+	align-self: flex-start;
 	justify-content: center;
 	align-items: center;
-	border-bottom: 2px solid white;
+	/* border-bottom: 2px solid white; */
 	height: 65px;
 	padding: 0px;
 	width: 200px;
-	margin: 5px 150px 0px 0px;
+	margin: 5px 0px 0px 40px;
 
 	@media screen and (max-width: 800px) {
-		margin: 5px 80px 10px 0px;
+		margin: 5px 5px 0px 0px;
 	}
 `
 

@@ -27,14 +27,13 @@ export const Header = styled.div`
 	align-self: flex-start;
 	align-items: center;
 	justify-content: center;
-	border-bottom: 2px solid #023e8a;
 	height: 65px;
 	width: 200px;
 	padding: 0px;
-	margin: 5px 0px 0px 50px;
+	margin: 5px 0px 0px 40px;
 
 	@media screen and (max-width: 800px) {
-		margin: 5px 0px 0px 20px;
+		margin: 5px 5px 0px 0px;
 	}
 `
 
@@ -100,7 +99,7 @@ export const Card = styled.div`
 	display: flex;
 	height: auto;
 	width: 40vw;
-	background-color: white;
+	background-color: whitesmoke;
 	border-radius: 8px;
 	border: 2px solid #023e8a;
 	box-shadow: 2px 2px 2px 2px #023e8a;
@@ -140,7 +139,7 @@ export const Desc = styled.h3`
 	color: black;
 	font-weight: 600;
 	text-align: justify;
-	margin: -18px 5px 2px 5px;
+	margin: 1px 5px 2px 5px;
 	@media screen and (max-width: 800px) {
 		margin: -16px 5px 5px 5px;
 		font-weight: 550;

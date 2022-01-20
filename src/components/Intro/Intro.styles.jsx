@@ -50,7 +50,7 @@ export const Icons = styled.div`
 export const Git = styled(Github)`
 	color: white;
 	width: 60px;
-	animation: 30s ${bounceAnimation};
+	animation: 60s ${bounceAnimation};
 	&:hover {
 		color: black;
 	}
@@ -58,7 +58,7 @@ export const Git = styled(Github)`
 export const Twit = styled(Twitter)`
 	color: white;
 	width: 60px;
-	animation: 30s ${bounceAnimation};
+	animation: 60s ${bounceAnimation};
 	&:hover {
 		color: #1da1f2;
 	}
@@ -67,7 +67,7 @@ export const Twit = styled(Twitter)`
 export const Linked = styled(LinkedinSquare)`
 	color: white;
 	width: 60px;
-	animation: 30s ${bounceAnimation};
+	animation: 60s ${bounceAnimation};
 	&:hover {
 		color: #1da1f2;
 	}
@@ -76,7 +76,7 @@ export const Linked = styled(LinkedinSquare)`
 export const Google = styled(GoogleDrive)`
 	color: white;
 	width: 60px;
-	animation: 30s ${bounceAnimation};
+	animation: 60s ${bounceAnimation};
 	&:hover {
 		color: red;
 	}
@@ -96,7 +96,7 @@ export const Title = styled.h4`
 	}
 `
 export const Introt = styled.div`
-	font-size: 80px;
+	font-size: 100px;
 	margin-top: 30px;
 	color: white;
 	align-items: center;
@@ -105,8 +105,8 @@ export const Introt = styled.div`
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
 		sans-serif;
 	@media screen and (max-width: 800px) {
-		font-size: 10vw;
-		margin-top: 20px;
+		font-size: 40px;
+		margin-top: 10px;
 	}
 `
 export const Introf = styled.div`
@@ -119,8 +119,8 @@ export const Introf = styled.div`
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
 		sans-serif;
 	@media screen and (max-width: 800px) {
-		font-size: 20vw;
-		margin-top: 20px;
+		font-size: 40px;
+		margin-top: 10px;
 	}
 `
 

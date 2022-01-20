@@ -11,11 +11,11 @@ import {
 	// Figma,
 	// Invision,
 	MongoDb,
-	Postgre,
+	// Postgre,
 	Nodejs,
 	Reactjs,
 	Redux,
-	FireBase,
+	// FireBase,
 	Gatsby,
 	Git,
 	Github,
@@ -48,8 +48,8 @@ const Skills = () => {
 						<Nodejs title='Node JS' />
 						<Express title='Express' />
 						<MongoDb title='MongoDB' />
-						<Postgre title='PostgreSQL' />
-						<FireBase title='Firebase' />
+						{/* <Postgre title='PostgreSQL' /> */}
+						{/* <FireBase title='Firebase' /> */}
 					</Card>
 
 					<Card>
