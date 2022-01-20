@@ -62,18 +62,19 @@ export const Details = styled.div`
 `
 
 export const PostContainer = styled.div`
-	background: whitesmoke;
+	/* background: whitesmoke; */
 	border: 2px solid #023e8a;
 	display: flex;
 	flex-direction: row;
 	margin-left: 20px;
-	width: 70vw;
+	width: 50vw;
 	border-radius: 8px;
 	margin-top: 20px;
-	padding: 20px 20px;
+	padding: 2px 20px;
 	@media screen and (max-width: 800px) {
 		width: 90vw;
 		margin-left: 0px;
+		padding: 20px 20px;
 		height: auto;
 	}
 `

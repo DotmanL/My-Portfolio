@@ -99,15 +99,15 @@ export const Image = styled.img`
 export const Card = styled.div`
 	display: flex;
 	height: auto;
-	width: auto;
+	width: 40vw;
 	background-color: white;
 	border-radius: 8px;
 	border: 2px solid #023e8a;
 	box-shadow: 2px 2px 2px 2px #023e8a;
-	padding: 5px 5px;
+	padding: 5px 30px;
 	flex-direction: column;
 	justify-content: center;
-	margin: 20px 0px 10px 0px;
+	/* margin: 20px 0px 10px 0px; */
 	transition: 0.4s ease-out;
 	position: relative;
 	&:hover {

@@ -25,7 +25,7 @@ const NavItem = styled.a`
 		transition: all 0.4s ease-in;
 	}
 	:hover {
-		color: goldenrod;
+		/* color: goldenrod; */
 		::after {
 			width: 100%;
 		}

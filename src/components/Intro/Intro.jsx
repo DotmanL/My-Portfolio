@@ -1,6 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed'
-
+import ScrollAnimation from 'react-animate-on-scroll'
 import {
 	Git,
 	Introt,
@@ -16,17 +16,20 @@ import {
 const Intro = () => {
 	return (
 		<IntroContainer>
+				<ScrollAnimation animateIn='zoomIn' duration={2} delay={3}>
 			<Introf>
 				<Typed showCursor={false} strings={['Hi, I am']} typeSpeed={40} />
 			</Introf>
-
+			</ScrollAnimation>
+			<ScrollAnimation animateIn='zoomIn' duration={2} delay={3}>
 			<Introt>
 				<Typed showCursor={false} strings={['Lawal Oladotun']} typeSpeed={40} />
 			</Introt>
-
+			</ScrollAnimation>
+		
 			<Introm>
 				<Typed
-					strings={['FullStack Developer (MERN Stack)']}
+					strings={['Frontend Developer']}
 					typeSpeed={90}
 					backSpeed={90}
 					loop

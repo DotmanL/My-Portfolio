@@ -19,28 +19,31 @@ export const IntroContainer = styled.div`
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	align-items: center;
+	align-items: flex-start;
+	padding: 0px 0px 0px 190px;
 	display: flex;
 	flex-direction: column;
 	margin: 0px auto;
 	@media screen and (max-width: 800px) {
 		height: 100vh;
+		padding: 0px 0px 0px 20px;
 		overflow-x: hidden;
-		margin-top: -80px;
+		margin-top: 5px;
 	}
 `
 
 export const Icons = styled.div`
 	justify-content: space-between;
 	align-items: center;
-	display: flex;
+	align-self: center;
+		display: flex;
 	flex-direction: row;
 	width: 400px;
 	margin-top: 90px;
-
 	@media screen and (max-width: 800px) {
 		margin-top: 60px;
 		width: 80vw;
+		align-items: center;
 	}
 `
 
