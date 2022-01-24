@@ -28,7 +28,7 @@ export const IntroContainer = styled.div`
 		height: 100vh;
 		padding: 0px 0px 0px 20px;
 		overflow-x: hidden;
-		margin-top: 5px;
+		margin-top: 0px;
 	}
 `
 
