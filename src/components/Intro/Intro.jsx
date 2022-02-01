@@ -51,7 +51,7 @@ const Intro = () => {
 					<Linked />
 				</a>
 				<a
-					href='https://drive.google.com/file/d/1iJqvsLL5PWd9t9-6dfXFxE5iuIzXpAIq/view?usp=sharing'
+					href='https://drive.google.com/file/d/1kc8Tt3Xao1RbReGTsElpPL7-MRAWxp-S/view?usp=drivesdk'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
