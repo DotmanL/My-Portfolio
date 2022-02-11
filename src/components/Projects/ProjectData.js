@@ -1,6 +1,24 @@
 export const data = [
 	{
 		id: '0',
+		ProjectName: 'Sporty Footy',
+		ProjectDescription:
+			'Sporty Footy is social media web application curently being built by me, this app aims to enable football lovers discuss extensively about football and also catch up about daily events in the football world. (Still under development),',
+		TechUsed: [
+			'React',
+			'Typescript',
+			'Material-UI',
+			'Redux-Toolkit',
+			'NodeJS',
+			'Express',
+			'MongoDB',
+		],
+		ProjectLink: 'http://sportyfooty.com/',
+		ProjectImage: require('./images/sfooty.png'),
+		GithubLink: 'https://github.com/DotmanL/SFooty-frontend',
+	},
+	{
+		id: '1',
 		ProjectName: 'Savekoins',
 		ProjectDescription:
 			'Savekoins is a FinTech application that is being designed to enable users to save their FIAT in cryptocurrencies. I worked as a Front-End developer on this project by building several UI components for both the web application as well as the static website, I also wrote unit tests for several components while working on this project',
@@ -17,7 +35,7 @@ export const data = [
 		GithubLink: 'https://github.com/SaveKoins',
 	},
 	{
-		id: '1',
+		id: '2',
 		ProjectName: 'Foodtime',
 		ProjectDescription:
 			'A Food Retailing Web Application that gives food vendors in Lagos State, Nigera the platform to put the various meals online and sell to users who sign up as customers. Various meals can be advertised and put on sale on this platform, payment will be made online or either on delivery to the customers.',
@@ -37,7 +55,7 @@ export const data = [
 	},
 
 	{
-		id: '2',
+		id: '3',
 		ProjectName: 'Devmeet App',
 		ProjectDescription:
 			'A social media app for developers, this app was built based on the Brad Traversy MERN Stack Course project, more features such as email verification, password reset, login with Google, infinite scrolling, image upload functionality, full UI built with styled components, (also replicated Twitter Home Page), etc.. Many more features still being added.',
@@ -56,7 +74,7 @@ export const data = [
 		GithubLink: 'https://github.com/DotmanL/Devmeet',
 	},
 	{
-		id: '3',
+		id: '4',
 		ProjectName: 'Github Replica',
 		ProjectDescription:
 			'This a Front-End task that was submitted for a job application into BuyCoins Africa, this task invloved replicating my Github Profile Page while interacting with the Github GraphQL API. The main goal for this task was to ensure it was completed with just HTML, CSS and Javscript without the use of any front-end framework.',
@@ -66,7 +84,7 @@ export const data = [
 		GithubLink: 'https://github.com/DotmanL/BuyCoins-Frontend-Task',
 	},
 	{
-		id: '4',
+		id: '5',
 		ProjectName: 'Allrange Store',
 		ProjectDescription:
 			'An eCommerce app built with React based on the Zero to Mastery Udemy Course: Complete React Developer. This project was really extensive as it covered majority of the React and Redux ecosystem ranging from the usage of hooks to Lazy loading of pages, Compression, Testing using Enzyme, Progressive Web App Implementation, Usage of Redux Saga etc... I added features such as Contact Page, Restyling of some components, PayStack Integration etc...',
@@ -85,7 +103,7 @@ export const data = [
 	},
 
 	{
-		id: '5',
+		id: '6',
 		ProjectName: 'Covid19 Status Update',
 		ProjectDescription:
 			'	A Covid19 Status Update App for global cases and cases by country, illustrated with the use of line and bar charts.',
@@ -103,16 +121,16 @@ export const data = [
 		ProjectImage: require('./images/dot_blog.png'),
 		GithubLink: 'https://github.com/DotmanL/Dotdev-Blog',
 	},
-	{
-		id: '7',
-		ProjectName: 'Smart Brain',
-		ProjectDescription:
-			'Smart Brain is a web application that detects faces in pictures which are inputed by pasting an image url. The detection is done with the help of Clarifai API.',
-		TechUsed: ['React', 'Tachyons', 'PostgreSQL', 'NodeJs', 'Express'],
-		ProjectLink: 'https://smart-brain-dot.herokuapp.com/',
-		ProjectImage: require('./images/smart22.png'),
-		GithubLink: 'https://github.com/DotmanL/smart-brain',
-	},
+	// {
+	// 	id: '7',
+	// 	ProjectName: 'Smart Brain',
+	// 	ProjectDescription:
+	// 		'Smart Brain is a web application that detects faces in pictures which are inputed by pasting an image url. The detection is done with the help of Clarifai API.',
+	// 	TechUsed: ['React', 'Tachyons', 'PostgreSQL', 'NodeJs', 'Express'],
+	// 	ProjectLink: 'https://smart-brain-dot.herokuapp.com/',
+	// 	ProjectImage: require('./images/smart22.png'),
+	// 	GithubLink: 'https://github.com/DotmanL/smart-brain',
+	// },
 	// {
 	// 	id: '8',
 	// 	ProjectName: 'Robofriends',

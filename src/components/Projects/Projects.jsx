@@ -29,7 +29,10 @@ const Projects = () => {
 			<Main>
 				{data.map((project, id) => (
 					<CardContent key={project.id}>
-						<Image src={project.ProjectImage} alt='project-screenshot' />
+						<a href={project.ProjectLink} target='_blank' rel='noopener noreferrer'>
+							<Image src={project.ProjectImage} alt='project-screenshot' />
+						</a>
+
 						<Card>
 							<ProjectName>{project.ProjectName}</ProjectName>
 							<Desc>{project.ProjectDescription}</Desc>
