@@ -13,7 +13,7 @@ export const data = [
 			'Express',
 			'MongoDB',
 		],
-		ProjectLink: 'http://sportyfooty.com/',
+		ProjectLink: 'https://sportyfooty.com/',
 		ProjectImage: require('./images/sfooty.png'),
 		GithubLink: 'https://github.com/DotmanL/SFooty-frontend',
 	},
