@@ -69,7 +69,7 @@ export const data = [
 			'JSON Web Tokens',
 			'SendGrid',
 		],
-		ProjectLink: 'http://devmeetdot.herokuapp.com/',
+		ProjectLink: 'https://devmeetdot.herokuapp.com/',
 		ProjectImage: require('./images/devmeet23.png'),
 		GithubLink: 'https://github.com/DotmanL/Devmeet',
 	},
