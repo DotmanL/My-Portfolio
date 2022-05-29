@@ -29,7 +29,7 @@ const Intro = () => {
 		
 			<Introm>
 				<Typed
-					strings={['Frontend Developer']}
+					strings={['Fullstack Developer']}
 					typeSpeed={90}
 					backSpeed={90}
 					loop
