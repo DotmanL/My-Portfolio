@@ -18,7 +18,7 @@ import { ReactComponent as heroku } from './logos/heroku.svg'
 import { ReactComponent as js } from './logos/javascript.svg'
 import { ReactComponent as ts } from './logos/typescript.svg'
 import { ReactComponent as net } from './logos/Microsoft_.NET_logo.svg'
-import { ReactComponent as csharp } from './logos/c#.svg'
+import { ReactComponent as csharp } from './logos/csharp.svg'
 import { ReactComponent as sqlserver } from './logos/sqlserver.svg'
 import { ReactComponent as azure } from './logos/azure.svg'
 
