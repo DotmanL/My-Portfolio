@@ -16,6 +16,12 @@ import { ReactComponent as redux } from './logos/redux.svg'
 import { ReactComponent as netlify } from './logos/netlify.svg'
 import { ReactComponent as heroku } from './logos/heroku.svg'
 import { ReactComponent as js } from './logos/javascript.svg'
+import { ReactComponent as ts } from './logos/typescript.svg'
+import { ReactComponent as net } from './logos/Microsoft_.NET_logo.svg'
+import { ReactComponent as csharp } from './logos/c#.svg'
+import { ReactComponent as sqlserver } from './logos/sqlserver.svg'
+import { ReactComponent as azure } from './logos/azure.svg'
+
 import Bckg from './jakspot.jpg'
 
 export const Container = styled.div`
@@ -191,5 +197,34 @@ export const Netlify = styled(netlify)`
 export const Jscript = styled(js)`
 	width: 100px;
 	height: 100px;
+	margin-top: 15px;
+`
+export const Typescript = styled(ts)`
+	width: 100px;
+	height: 100px;
+	margin-top: 15px;
+`
+
+export const Dotnet = styled(net)`
+	width: 100px;
+	height: 100px;
+	margin-top: 15px;
+`
+
+export const Csharp = styled(csharp)`
+	width: 100px;
+	height: 100px;
+	margin-top: 15px;
+`
+
+export const SqlServer = styled(sqlserver)`
+	width: 100px;
+	height: 100px;
+	margin-top: 15px;
+`
+
+export const Azure = styled(azure)`
+	width: 200px;
+	height: 200px;
 	margin-top: 15px;
 `

@@ -7,15 +7,16 @@ import {
 	Card,
 	Css,
 	Jscript,
+	Typescript,
 	Express,
-	// Figma,
-	// Invision,
+	Csharp,
+	SqlServer,
+	Azure,
+	Dotnet,
 	MongoDb,
-	// Postgre,
 	Nodejs,
 	Reactjs,
 	Redux,
-	// FireBase,
 	Gatsby,
 	Git,
 	Github,
@@ -38,6 +39,7 @@ const Skills = () => {
 						<Html title='Html' />
 						<Css title='Css' />
 						<Jscript title='Javascript' />
+						<Typescript title ='TypeScript' />
 						<Reactjs title='React Js' />
 						<Redux title='Redux' />
 						<Gatsby title='Gatsby JS' />
@@ -45,21 +47,22 @@ const Skills = () => {
 
 					<Card>
 						<STitle>Backend and Databases</STitle>
+						<Csharp title='Csharp' />
 						<Nodejs title='Node JS' />
+						<Dotnet title='.Net' />
 						<Express title='Express' />
 						<MongoDb title='MongoDB' />
-						{/* <Postgre title='PostgreSQL' /> */}
-						{/* <FireBase title='Firebase' /> */}
+						<SqlServer title='SqlServer' />
+		
 					</Card>
 
 					<Card>
 						<STitle>Source Control and Hosting Services</STitle>
-						{/* <Invision title='Invision' /> */}
-						{/* <Figma title='Figma' /> */}
 						<Git title='Git' />
 						<Github title='Github' />
 						<Heroku title='Heroku' />
 						<Netlify title='Netlify' />
+						<Azure title='Azure'/>
 					</Card>
 				</SubContainer>
 			</ScrollAnimation>
