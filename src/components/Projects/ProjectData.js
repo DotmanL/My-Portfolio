@@ -31,7 +31,7 @@ export const data = [
       "Express",
       "MongoDB",
     ],
-    ProjectLink: "https://sportyfooty.com/",
+    ProjectLink: "https://dotsporty.netlify.app/",
     ProjectImage: require("./images/sfooty.png"),
     GithubLink: "https://github.com/DotmanL/SFooty-frontend",
   },
