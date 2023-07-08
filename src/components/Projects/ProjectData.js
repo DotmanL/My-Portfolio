@@ -1,9 +1,9 @@
 export const data = [
   {
     id: "0",
-    ProjectName: "Dot Voting Poker",
+    ProjectName: "Virtual Planning Poker",
     ProjectDescription:
-      "A voting poker web app to help multiple teams in estimating tasks in real-time.",
+      "A planning poker web app to help multiple teams in estimating tasks in real-time, fully integrated with JIRA to allow for easy importing of issues and saving story points",
     TechUsed: [
       "React",
       "Typescript",
@@ -13,7 +13,7 @@ export const data = [
       "Express",
       "MongoDB",
     ],
-    ProjectLink: "https://dot-voting.netlify.app/",
+    ProjectLink: "https://virtualplanningpoker.com/",
     ProjectImage: require("./images/dotvoting.png"),
     GithubLink: "https://github.com/DotmanL/Voting-Poker",
   },
