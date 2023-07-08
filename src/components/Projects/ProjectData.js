@@ -14,7 +14,7 @@ export const data = [
       "MongoDB",
     ],
     ProjectLink: "https://virtualplanningpoker.com/",
-    ProjectImage: require("./images/dotvoting.png"),
+    ProjectImage: require("./images/vpp.png"),
     GithubLink: "https://github.com/DotmanL/Voting-Poker",
   },
   {
